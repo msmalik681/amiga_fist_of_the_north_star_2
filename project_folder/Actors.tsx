@@ -3,23 +3,7 @@
   <image source="actors.png" width="256" height="256" />
   <tile id="0">
     <properties>
-      <property name="Name" value="ken_base" type="string" />
-    </properties>
-  </tile>
-  <tile id="1">
-    <properties>
-      <property name="Name" value="axe_grunt_base" type="string" />
-    </properties>
-  </tile>
-  <tile id="2" />
-  <tile id="3">
-    <properties>
-      <property name="Name" value="axe_grunt_upper" type="string" />
-    </properties>
-  </tile>
-  <tile id="4">
-    <properties>
-      <property name="Name" value="axe_grunt_axe" type="string" />
+      <property name="Name" value="kenshiro" type="string" />
     </properties>
   </tile>
 </tileset>

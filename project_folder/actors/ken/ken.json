@@ -50,17 +50,49 @@
       "FrameData": [
         {
           "FrameID": "punch_01",
-          "Duration": 5,
+          "Duration": 3,
           "Properties": {}
         },
         {
           "FrameID": "punch_02",
-          "Duration": 5,
+          "Duration": 3,
           "Properties": {}
         },
         {
           "FrameID": "punch_01",
-          "Duration": 5,
+          "Duration": 3,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "duck_r": {
+      "FrameData": [
+        {
+          "FrameID": "duck",
+          "Duration": 3,
+          "Properties": {}
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True"
+      }
+    },
+    "duck_punch_r": {
+      "FrameData": [
+        {
+          "FrameID": "duck_punch_01",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "duck_punch_02",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "duck_punch_01",
+          "Duration": 3,
           "Properties": {}
         }
       ],
@@ -90,7 +122,9 @@
         }
       ],
       "ColRects": {},
-      "Properties": {}
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
     },
     "walk_02": {
       "Sprites": [
@@ -114,7 +148,9 @@
         }
       ],
       "ColRects": {},
-      "Properties": {}
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
     },
     "walk_01": {
       "Sprites": [
@@ -138,7 +174,9 @@
         }
       ],
       "ColRects": {},
-      "Properties": {}
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
     },
     "idle": {
       "Sprites": [
@@ -153,7 +191,9 @@
         }
       ],
       "ColRects": {},
-      "Properties": {}
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
     },
     "jump": {
       "Sprites": [
@@ -177,7 +217,9 @@
         }
       ],
       "ColRects": {},
-      "Properties": {}
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
     },
     "punch_01": {
       "Sprites": [
@@ -201,7 +243,9 @@
         }
       ],
       "ColRects": {},
-      "Properties": {}
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
     },
     "punch_02": {
       "Sprites": [
@@ -224,8 +268,116 @@
           "Properties": {}
         }
       ],
+      "ColRects": {
+        "FrameEvent0": {
+          "Value": 0,
+          "X": 16,
+          "Y": -74,
+          "Width": 34,
+          "Height": 12,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
+      "Properties": {
+        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"Box\": {\r\n        \"X\": 16,\r\n        \"Y\": -74,\r\n        \"Width\": 34,\r\n        \"Height\": 12\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "duck": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\duck_lower_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\jump_upper_01.png",
+          "HandleX": -55,
+          "HandleY": -89,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
       "ColRects": {},
-      "Properties": {}
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "duck_punch_01": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\duck_lower_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\punch_upper_01.png",
+          "HandleX": -56,
+          "HandleY": -93,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "duck_punch_02": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\duck_lower_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\punch_upper_02.png",
+          "HandleX": -56,
+          "HandleY": -93,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "FrameEvent0": {
+          "Value": 0,
+          "X": 17,
+          "Y": -56,
+          "Width": 32,
+          "Height": 16,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
+      "Properties": {
+        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"Box\": {\r\n        \"X\": 17,\r\n        \"Y\": -56,\r\n        \"Width\": 32,\r\n        \"Height\": 16\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
+      }
     }
   },
   "Properties": {}

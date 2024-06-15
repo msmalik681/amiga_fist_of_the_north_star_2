@@ -1,27 +1,27 @@
 {
   "ShootDirType": "actor_direction",
   "DefaultLookDir": "left",
-  "Recycle": "Never",
-  "MoveType": "cpu_parentlock",
+  "Recycle": "Default",
+  "MoveType": "control",
   "MaxEntities": 0,
   "NudgeX": 8,
   "NudgeY": 15,
   "Idles": {
     "UpLeft": "",
     "Up": "",
-    "UpRight": "",
+    "UpRight": "ken_jump_r",
     "Left": "",
-    "Right": "axe_grunt_upper_walk_r",
+    "Right": "ken_idle_r",
     "DownLeft": "",
     "Down": "",
-    "DownRight": ""
+    "DownRight": "ken_duck_r"
   },
   "Moves": {
     "UpLeft": "",
     "Up": "",
     "UpRight": "",
     "Left": "",
-    "Right": "",
+    "Right": "ken_walk_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -31,7 +31,7 @@
     "Up": "",
     "UpRight": "",
     "Left": "",
-    "Right": "",
+    "Right": "ken_punch_r",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -93,9 +93,9 @@
     }
   ],
   "InvalidDirections": [
+    false,
     true,
-    true,
-    true,
+    false,
     false,
     false,
     false,
@@ -104,10 +104,10 @@
     true
   ],
   "CollBox": {
-    "X": -19,
-    "Y": -73,
-    "Width": 38,
-    "Height": 74
+    "X": -11,
+    "Y": -77,
+    "Width": 20,
+    "Height": 78
   },
   "AttackDelay": 0,
   "ZOrder": 0,
@@ -122,16 +122,16 @@
   "AccelLeftAir": null,
   "AccelRightAir": null,
   "RotationSpeed": 0.0,
-  "CollType_Left": "none",
-  "CollType_Right": "none",
+  "CollType_Left": "block",
+  "CollType_Right": "block",
   "CollType_Up": "block",
   "CollType_Down": "block",
-  "Player": null,
+  "Player": true,
   "BlockCollider": null,
   "CanRidePlatform": null,
   "Camera": null,
   "AutoScroll": null,
-  "Flags": "canUseParentAnim",
+  "Flags": 0,
   "AttackProjectile": null,
   "AttackProjectileAmmoVariable": null,
   "AttackSound": null,
@@ -142,8 +142,8 @@
   "DivertPlayerHit": "",
   "DivertHitAgainstPlayer": "",
   "DivertProjectileCollision": "",
-  "DivertOutOfScreenLeft": "destroy_actor",
-  "DivertOutOfScreenRight": "destroy_actor",
+  "DivertOutOfScreenLeft": "",
+  "DivertOutOfScreenRight": "",
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
@@ -156,7 +156,7 @@
     "0",
     "0",
     "0",
-    "11"
+    "1"
   ],
   "ControlPort": 0,
   "DataVersion": 4,
@@ -190,5 +190,5 @@
     "TimelineEvents": {},
     "PingPong": false
   },
-  "TileID": 3
+  "TileID": 0
 }

@@ -1,13 +1,13 @@
-Compiled on 15 June 2024 09:48:19
+Compiled on 15 June 2024 13:33:22
 Version string: SE2024.1.240615.17.00.EX
 
 === Misc ===
-ImageFrames: 31
-ImageFrame Data Size: 1364
+ImageFrames: 21
+ImageFrame Data Size: 924
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 5
-Actor Data Size: 940
+Actor Count: 2
+Actor Data Size: 376
 Block Count: 2
 Block Data Size: 136
 Anim5 Count: 0
@@ -16,26 +16,26 @@ Sound Count: 1
 Sound Data Size: 28
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 12
-Animations Data Size: 192
-AnimationFrame Count: 36
-AnimationFrame Data Size: 576
+Animations Count: 14
+Animations Data Size: 224
+AnimationFrame Count: 28
+AnimationFrame Data Size: 448
 Sprites: 1
 Sprites Data Size: 14
 Attack Data: 1
 Attack Data Size: 74
-Misc data size: 70
+Misc data size: 16
 === Image optimisations ===
 Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
-Project virtual machine (codeblocks) Original size 7946 Crunched size 7946
+Project virtual machine (codeblocks) Original size 7842 Crunched size 7842
 Header data for map stage_1 Original size 8000 Crunched size 8000
 Tile data for map stage_1 (mem restrictions:None) Original size 1720 Crunched size 1720
 Background for map stage_1 Original size 1396 Crunched size 1396
-Asset bundle 0 (Core project asset bundle) Original size 45360 Crunched size 45360
+Asset bundle 0 (Core project asset bundle) Original size 46998 Crunched size 46998
 Asset bundle 1 (stage_1) Original size 11908 Crunched size 11908
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 3440 Crunched size 3440
+Project Data Original size 2274 Crunched size 2274
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -45,7 +45,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 55172
 Music memory (): 0
 BP Buffer memory: 109600
-core sfx/gfx memory: 45360
+core sfx/gfx memory: 46998
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -55,22 +55,23 @@ Map header cache memory: 0
 Map data memory: 1720
 Map background memory: 1396
 EXE memory: 214812
-vm memory: 7946
-project memory: 3440
+vm memory: 7842
+project memory: 2274
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 309460
-Accounted memory other: 348618
-Accounted memory total: 658078
+Accounted memory chip: 311098
+Accounted memory other: 347348
+Accounted memory total: 658446
 
 === Possibly unused animations ===
 blank
+ken_duck_punch_r
+ken_duck_punch_l
 
 === Possibly unused Actors ===
-axe_grunt_base
-ken_base
+kenshiro
 
 === Codeblocks by compiled size ===
 load_level: 568
@@ -80,7 +81,7 @@ flipxymove: 278 (Unused?)
 block_find: 206 (Unused?)
 pre_startup: 204
 set_yresolution: 202
-startup: 196
+startup: 202
 waitforframes: 194
 check_talkpad: 192 (Unused?)
 block_count: 178 (Unused?)
@@ -91,7 +92,6 @@ pre_quit: 152
 load_panel: 146
 flipxmove: 142 (Unused?)
 unload_level: 142
-frame_sync: 138
 destroy_all_blocks: 128 (Unused?)
 pre_load_level: 122
 waitforfireup: 114
@@ -101,12 +101,14 @@ unload_panel: 106
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
+autogen_ken_duck_punch_r_1: 90
+autogen_ken_duck_punch_l_1: 90
+autogen_ken_punch_r_1: 90
+autogen_ken_punch_l_1: 90
 fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-axe_grunt_spawn: 82
 load_music: 78 (Unused?)
-AUTOGEN_OUTOFSCREEN_destroy_actor_destroy_actor_None_None: 78
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
@@ -115,10 +117,8 @@ flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
 quit: 70 (Unused?)
-ken_attack: 70 (Unused?)
 jump_actor: 66 (Unused?)
 load_panel_finish: 66
-frame_sync2: 64
 unload_panel_bottom: 62
 unload_panel_top: 62
 destroy_all_actors: 60 (Unused?)
@@ -129,7 +129,6 @@ return: 52 (Unused?)
 regenerate_screen_wait: 46
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
-autogen_axe_grunt_base_walk_r_0: 38
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
 clear_block_collision: 32
