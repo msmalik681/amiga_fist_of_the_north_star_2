@@ -25,6 +25,46 @@
         }
       ],
       "Properties": {}
+    },
+    "idle_r": {
+      "FrameData": [
+        {
+          "FrameID": "idle",
+          "Duration": 5,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "jump_r": {
+      "FrameData": [
+        {
+          "FrameID": "jump",
+          "Duration": 5,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "punch_r": {
+      "FrameData": [
+        {
+          "FrameID": "punch_01",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "punch_02",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "punch_01",
+          "Duration": 5,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
     }
   },
   "Frames": {
@@ -89,6 +129,93 @@
         },
         {
           "FramePath": "Cropped parts\\walk_upper_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "idle": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\idle.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "jump": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\jump_lower_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\jump_upper_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "punch_01": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\punch_lower_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\punch_upper_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "punch_02": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\punch_lower_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\punch_upper_02.png",
           "HandleX": -55,
           "HandleY": -111,
           "XFlip": false,
