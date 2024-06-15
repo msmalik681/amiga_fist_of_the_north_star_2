@@ -11,4 +11,9 @@
       <property name="Name" value="kenshiro_ducking" type="string" />
     </properties>
   </tile>
+  <tile id="2">
+    <properties>
+      <property name="Name" value="axe_grunt" type="string" />
+    </properties>
+  </tile>
 </tileset>

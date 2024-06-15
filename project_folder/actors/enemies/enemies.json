@@ -1,0 +1,231 @@
+{
+  "ProjectType": "RetroAnimator",
+  "Animations": {
+    "axegrunt_walk_r": {
+      "FrameData": [
+        {
+          "FrameID": "axegrunt_walk_01",
+          "Duration": 5,
+          "Properties": {
+            "RenderType": "Normal"
+          }
+        },
+        {
+          "FrameID": "axegrunt_walk_02",
+          "Duration": 5,
+          "Properties": {
+            "RenderType": "Normal"
+          }
+        },
+        {
+          "FrameID": "axegrunt_walk_01",
+          "Duration": 5,
+          "Properties": {
+            "RenderType": "Normal"
+          }
+        },
+        {
+          "FrameID": "axegrunt_walk_03",
+          "Duration": 5,
+          "Properties": {
+            "RenderType": "Normal"
+          }
+        }
+      ],
+      "Properties": {}
+    },
+    "axegrunt_attack_r": {
+      "FrameData": [
+        {
+          "FrameID": "axegrunt_attack_01",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "axegrunt_attack_02",
+          "Duration": 3,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    }
+  },
+  "Frames": {
+    "axegrunt_walk_01": {
+      "Sprites": [
+        {
+          "FramePath": "axe_01.png",
+          "HandleX": -72,
+          "HandleY": -118,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_01.png",
+          "HandleX": -59,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_upper_01.png",
+          "HandleX": -59,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "axegrunt_walk_02": {
+      "Sprites": [
+        {
+          "FramePath": "axe_01.png",
+          "HandleX": -72,
+          "HandleY": -117,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_upper_01.png",
+          "HandleX": -59,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_02.png",
+          "HandleX": -59,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "axegrunt_walk_03": {
+      "Sprites": [
+        {
+          "FramePath": "axe_01.png",
+          "HandleX": -72,
+          "HandleY": -117,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_upper_01.png",
+          "HandleX": -59,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_03.png",
+          "HandleX": -59,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "axegrunt_attack_01": {
+      "Sprites": [
+        {
+          "FramePath": "axe_01.png",
+          "HandleX": -50,
+          "HandleY": -119,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "walk_01.png",
+          "HandleX": -59,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "attack_01.png",
+          "HandleX": -59,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "axegrunt_attack_02": {
+      "Sprites": [
+        {
+          "FramePath": "axe_03.png",
+          "HandleX": -22,
+          "HandleY": -81,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "attack_lower_02.png",
+          "HandleX": -59,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "attack_upper_02.png",
+          "HandleX": -59,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    }
+  },
+  "Properties": {}
+}

@@ -1,13 +1,13 @@
-Compiled on 15 June 2024 16:03:37
+Compiled on 15 June 2024 20:33:54
 Version string: SE2024.1.240615.17.00.EX
 
 === Misc ===
-ImageFrames: 21
-ImageFrame Data Size: 924
+ImageFrames: 31
+ImageFrame Data Size: 1364
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
-Actor Count: 3
-Actor Data Size: 564
+Actor Count: 4
+Actor Data Size: 752
 Block Count: 2
 Block Data Size: 136
 Anim5 Count: 0
@@ -16,26 +16,26 @@ Sound Count: 1
 Sound Data Size: 28
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 14
-Animations Data Size: 224
-AnimationFrame Count: 24
-AnimationFrame Data Size: 384
+Animations Count: 18
+Animations Data Size: 288
+AnimationFrame Count: 36
+AnimationFrame Data Size: 576
 Sprites: 1
 Sprites Data Size: 14
-Attack Data: 2
-Attack Data Size: 148
-Misc data size: 16
+Attack Data: 3
+Attack Data Size: 222
+Misc data size: 42
 === Image optimisations ===
 Panel scorpion_eng_splashscreen Original size 55172 Crunched size 3460
-Project virtual machine (codeblocks) Original size 7844 Crunched size 7844
+Project virtual machine (codeblocks) Original size 7922 Crunched size 7922
 Header data for map stage_1 Original size 8000 Crunched size 8000
 Tile data for map stage_1 (mem restrictions:None) Original size 1720 Crunched size 1720
 Background for map stage_1 Original size 1396 Crunched size 1396
-Asset bundle 0 (Core project asset bundle) Original size 46998 Crunched size 46998
+Asset bundle 0 (Core project asset bundle) Original size 77740 Crunched size 77740
 Asset bundle 1 (stage_1) Original size 11908 Crunched size 11908
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 2472 Crunched size 2472
+Project Data Original size 3456 Crunched size 3456
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -45,7 +45,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 55172
 Music memory (): 0
 BP Buffer memory: 109600
-core sfx/gfx memory: 46998
+core sfx/gfx memory: 77740
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -55,18 +55,21 @@ Map header cache memory: 0
 Map data memory: 1720
 Map background memory: 1396
 EXE memory: 214812
-vm memory: 7844
-project memory: 2472
+vm memory: 7922
+project memory: 3456
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 311098
-Accounted memory other: 347548
-Accounted memory total: 658646
+Accounted memory chip: 341840
+Accounted memory other: 348610
+Accounted memory total: 690450
 
 === Possibly unused animations ===
 blank
+
+=== Possibly unused Actors ===
+axe_grunt
 
 === Codeblocks by compiled size ===
 load_level: 568
@@ -86,7 +89,7 @@ flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)
 pre_quit: 152
 load_panel: 146
-flipxmove: 142 (Unused?)
+flipxmove: 142
 unload_level: 142
 destroy_all_blocks: 128 (Unused?)
 pre_load_level: 122
@@ -101,6 +104,7 @@ fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 load_music: 78 (Unused?)
+AUTOGEN_OUTOFSCREEN_flipxmove_flipxmove_None_None: 78
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
