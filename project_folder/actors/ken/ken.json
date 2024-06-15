@@ -40,7 +40,7 @@
       "FrameData": [
         {
           "FrameID": "jump",
-          "Duration": 5,
+          "Duration": -1,
           "Properties": {}
         }
       ],
@@ -55,11 +55,6 @@
         },
         {
           "FrameID": "punch_02",
-          "Duration": 3,
-          "Properties": {}
-        },
-        {
-          "FrameID": "punch_01",
           "Duration": 3,
           "Properties": {}
         }
@@ -85,11 +80,6 @@
         },
         {
           "FrameID": "duck_punch_02",
-          "Duration": 3,
-          "Properties": {}
-        },
-        {
-          "FrameID": "duck_punch_01",
           "Duration": 3,
           "Properties": {}
         }
@@ -270,7 +260,7 @@
         },
         {
           "FramePath": "Cropped parts\\jump_upper_01.png",
-          "HandleX": -55,
+          "HandleX": -54,
           "HandleY": -89,
           "XFlip": false,
           "NoFlip": false,

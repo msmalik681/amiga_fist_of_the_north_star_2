@@ -6,4 +6,9 @@
       <property name="Name" value="kenshiro" type="string" />
     </properties>
   </tile>
+  <tile id="1">
+    <properties>
+      <property name="Name" value="kenshiro_ducking" type="string" />
+    </properties>
+  </tile>
 </tileset>
