@@ -1,0 +1,147 @@
+{
+  "Frames": [
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "SlicedFast",
+      "SpriteType": "Attached_16colors",
+      "Path": "Cropped parts\\idle.png",
+      "HandleX": -55,
+      "HandleY": -111,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "idle",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "SlicedFast",
+      "SpriteType": "Attached_16colors",
+      "Path": "Cropped parts\\walk_lower_01.png",
+      "HandleX": -72,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "walk_lower_01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "SlicedFast",
+      "SpriteType": "Attached_16colors",
+      "Path": "Cropped parts\\walk_lower_02.png",
+      "HandleX": -72,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "walk_lower_02",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "SlicedFast",
+      "SpriteType": "Attached_16colors",
+      "Path": "Cropped parts\\walk_lower_03.png",
+      "HandleX": -72,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "walk_lower_03",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "SlicedFast",
+      "SpriteType": "Attached_16colors",
+      "Path": "Cropped parts\\walk_upper_01.png",
+      "HandleX": -72,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "walk_upper_01",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "SlicedFast",
+      "SpriteType": "Attached_16colors",
+      "Path": "Cropped parts\\walk_upper_02.png",
+      "HandleX": -72,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "walk_upper_02",
+      "IsBlank": false
+    },
+    {
+      "EventContainer": {
+        "Events": []
+      },
+      "Duration": 5,
+      "Multiplexes": 0,
+      "PaletteLine": 0,
+      "PaletteLineNeo": 0,
+      "RenderType": "SlicedFast",
+      "SpriteType": "Attached_16colors",
+      "Path": "Cropped parts\\walk_upper_03.png",
+      "HandleX": -72,
+      "HandleY": -64,
+      "XFlipped": false,
+      "HighPriority": false,
+      "ZeroIsTransparent": false,
+      "Name": "walk_upper_03",
+      "IsBlank": false
+    }
+  ],
+  "PreventAttack": false,
+  "PreventMovement": false,
+  "PreventCollision": false,
+  "HideChildren": true,
+  "LoopFrame": 0,
+  "OnFinish": null,
+  "AutoFlip": null,
+  "Streamed": true,
+  "PatternBuffer": 0,
+  "LinkedMap": ""
+}

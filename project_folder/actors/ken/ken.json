@@ -1,0 +1,105 @@
+{
+  "ProjectType": "RetroAnimator",
+  "Animations": {
+    "walk_r": {
+      "FrameData": [
+        {
+          "FrameID": "walk_01",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "walk_02",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "walk_01",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "walk_03",
+          "Duration": 5,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    }
+  },
+  "Frames": {
+    "walk_03": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\walk_upper_03.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\walk_lower_03.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_02": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\walk_lower_02.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\walk_upper_02.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "walk_01": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\walk_lower_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\walk_upper_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    }
+  },
+  "Properties": {}
+}
