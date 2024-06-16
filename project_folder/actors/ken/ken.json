@@ -7,28 +7,28 @@
           "FrameID": "walk_01",
           "Duration": 5,
           "Properties": {
-            "RenderType": "RetroAnimator"
+            "RenderType": "OnlySprite"
           }
         },
         {
           "FrameID": "walk_02",
           "Duration": 5,
           "Properties": {
-            "RenderType": "RetroAnimator"
+            "RenderType": "OnlySprite"
           }
         },
         {
           "FrameID": "walk_01",
           "Duration": 5,
           "Properties": {
-            "RenderType": "RetroAnimator"
+            "RenderType": "OnlySprite"
           }
         },
         {
           "FrameID": "walk_03",
           "Duration": 5,
           "Properties": {
-            "RenderType": "RetroAnimator"
+            "RenderType": "OnlySprite"
           }
         }
       ],

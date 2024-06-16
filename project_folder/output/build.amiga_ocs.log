@@ -1,4 +1,4 @@
-Compiled on 15 June 2024 20:33:54
+Compiled on 16 June 2024 08:51:22
 Version string: SE2024.1.240615.17.00.EX
 
 === Misc ===
@@ -20,8 +20,8 @@ Animations Count: 18
 Animations Data Size: 288
 AnimationFrame Count: 36
 AnimationFrame Data Size: 576
-Sprites: 1
-Sprites Data Size: 14
+Sprites: 7
+Sprites Data Size: 98
 Attack Data: 3
 Attack Data Size: 222
 Misc data size: 42
@@ -31,11 +31,11 @@ Project virtual machine (codeblocks) Original size 7922 Crunched size 7922
 Header data for map stage_1 Original size 8000 Crunched size 8000
 Tile data for map stage_1 (mem restrictions:None) Original size 1720 Crunched size 1720
 Background for map stage_1 Original size 1396 Crunched size 1396
-Asset bundle 0 (Core project asset bundle) Original size 77740 Crunched size 77740
-Asset bundle 1 (stage_1) Original size 11908 Crunched size 11908
+Asset bundle 0 (Core project asset bundle) Original size 113016 Crunched size 113016
+Asset bundle 1 (stage_1) Original size 11922 Crunched size 11922
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
-Project Data Original size 3456 Crunched size 3456
+Project Data Original size 3540 Crunched size 3540
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -45,7 +45,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 55172
 Music memory (): 0
 BP Buffer memory: 109600
-core sfx/gfx memory: 77740
+core sfx/gfx memory: 113016
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -56,14 +56,14 @@ Map data memory: 1720
 Map background memory: 1396
 EXE memory: 214812
 vm memory: 7922
-project memory: 3456
+project memory: 3540
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 341840
-Accounted memory other: 348610
-Accounted memory total: 690450
+Accounted memory chip: 377116
+Accounted memory other: 348694
+Accounted memory total: 725810
 
 === Possibly unused animations ===
 blank
