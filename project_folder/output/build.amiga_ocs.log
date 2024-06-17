@@ -1,5 +1,5 @@
-Compiled on 16 June 2024 08:51:22
-Version string: SE2024.1.240615.17.00.EX
+Compiled on 17 June 2024 09:12:51
+Version string: SE2024.1.240617.10.54.EX
 
 === Misc ===
 ImageFrames: 31
@@ -31,7 +31,7 @@ Project virtual machine (codeblocks) Original size 7922 Crunched size 7922
 Header data for map stage_1 Original size 8000 Crunched size 8000
 Tile data for map stage_1 (mem restrictions:None) Original size 1720 Crunched size 1720
 Background for map stage_1 Original size 1396 Crunched size 1396
-Asset bundle 0 (Core project asset bundle) Original size 113016 Crunched size 113016
+Asset bundle 0 (Core project asset bundle) Original size 76968 Crunched size 76968
 Asset bundle 1 (stage_1) Original size 11922 Crunched size 11922
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4036 Crunched size 4036
@@ -45,7 +45,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 55172
 Music memory (): 0
 BP Buffer memory: 109600
-core sfx/gfx memory: 113016
+core sfx/gfx memory: 76968
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -54,16 +54,16 @@ Map cache memory: 0
 Map header cache memory: 0
 Map data memory: 1720
 Map background memory: 1396
-EXE memory: 214812
+EXE memory: 214984
 vm memory: 7922
 project memory: 3540
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (256): 9216
 OS/other estimated: 105472
 
-Accounted memory chip: 377116
-Accounted memory other: 348694
-Accounted memory total: 725810
+Accounted memory chip: 341068
+Accounted memory other: 348866
+Accounted memory total: 689934
 
 === Possibly unused animations ===
 blank
