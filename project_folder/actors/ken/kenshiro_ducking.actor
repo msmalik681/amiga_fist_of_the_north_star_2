@@ -31,7 +31,7 @@
     "Up": "",
     "UpRight": "",
     "Left": "",
-    "Right": "ken_duck_punch_r",
+    "Right": "",
     "DownLeft": "",
     "Down": "",
     "DownRight": ""
@@ -190,5 +190,9 @@
     "TimelineEvents": {},
     "PingPong": false
   },
+  "DontSpawnIfTooMany": false,
+  "DivertMeleeByProjectile": null,
+  "DivertMeleeAgainstProjectile": null,
+  "IsAttacker": null,
   "TileID": 1
 }
