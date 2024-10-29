@@ -48,6 +48,31 @@
         }
       ],
       "Properties": {}
+    },
+    "axe_grunt_die_r": {
+      "FrameData": [
+        {
+          "FrameID": "axegrunt_die_01",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "axegrunt_die_01",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "axegrunt_die_02",
+          "Duration": 5,
+          "Properties": {}
+        },
+        {
+          "FrameID": "axegrunt_die_02",
+          "Duration": 5,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
     }
   },
   "Frames": {
@@ -225,6 +250,45 @@
       "Properties": {
         "Events": "{\r\n  \"Events\": []\r\n}"
       }
+    },
+    "axegrunt_die_01": {
+      "Sprites": [
+        {
+          "FramePath": "ag_fall_body.png",
+          "HandleX": -14,
+          "HandleY": -63,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "ag_fall_head.png",
+          "HandleX": -16,
+          "HandleY": -72,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
+    },
+    "axegrunt_die_02": {
+      "Sprites": [
+        {
+          "FramePath": "ag_fall_body.png",
+          "HandleX": -14,
+          "HandleY": -63,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {}
     }
   },
   "Properties": {}
