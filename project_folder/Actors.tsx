@@ -16,4 +16,9 @@
       <property name="Name" value="axe_grunt" type="string" />
     </properties>
   </tile>
+  <tile id="3">
+    <properties>
+      <property name="Name" value="blood_effect" type="string" />
+    </properties>
+  </tile>
 </tileset>
