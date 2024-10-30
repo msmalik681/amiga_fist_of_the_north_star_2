@@ -109,6 +109,27 @@
         }
       ],
       "Properties": {}
+    },
+    "jump_atk_punch_r": {
+      "FrameData": [
+        {
+          "FrameID": "jump_punch_01",
+          "Duration": 3,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "jump_punch_02",
+          "Duration": 3,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True"
+      }
     }
   },
   "Frames": {
@@ -366,6 +387,58 @@
           "FramePath": "Cropped parts\\punch_upper_02.png",
           "HandleX": -56,
           "HandleY": -93,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "jump_punch_01": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\jump_lower_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\punch_upper_01.png",
+          "HandleX": -56,
+          "HandleY": -114,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "jump_punch_02": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\jump_lower_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\punch_upper_02.png",
+          "HandleX": -56,
+          "HandleY": -114,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,

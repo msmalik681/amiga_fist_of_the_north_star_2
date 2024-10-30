@@ -29,12 +29,12 @@
   "Attacks": {
     "UpLeft": "",
     "Up": "",
-    "UpRight": "ken_punch_r",
+    "UpRight": "",
     "Left": "",
-    "Right": "ken_punch_r",
+    "Right": "",
     "DownLeft": "",
     "Down": "",
-    "DownRight": "ken_punch_r"
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {
@@ -127,7 +127,7 @@
   "CollType_Up": "block",
   "CollType_Down": "block",
   "Player": true,
-  "BlockCollider": null,
+  "BlockCollider": true,
   "CanRidePlatform": false,
   "Camera": null,
   "AutoScroll": null,
@@ -191,6 +191,7 @@
     "PingPong": false
   },
   "DontSpawnIfTooMany": false,
+  "AutoClearChildren": false,
   "DivertMeleeByProjectile": null,
   "DivertMeleeAgainstProjectile": null,
   "IsAttacker": null,

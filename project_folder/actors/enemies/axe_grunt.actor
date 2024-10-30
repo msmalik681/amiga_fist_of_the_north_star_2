@@ -160,7 +160,7 @@
   ],
   "ControlPort": 4,
   "DataVersion": 6,
-  "ActorTag": "None",
+  "ActorTag": "axe_grunt",
   "AutoSpawn": null,
   "AutoNavigate": false,
   "ActorTimeline": {
