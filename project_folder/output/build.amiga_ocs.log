@@ -1,9 +1,9 @@
-Compiled on 30 October 2024 19:22:38
-Version string: SE2024.2.241030.12.33.EX
+Compiled on 01 November 2024 14:58:35
+Version string: SE2024.2.241031.17.39.EX
 
 === Misc ===
-ImageFrames: 56
-ImageFrame Data Size: 2464
+ImageFrames: 78
+ImageFrame Data Size: 3432
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 5
@@ -16,12 +16,12 @@ Sound Count: 1
 Sound Data Size: 28
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 24
-Animations Data Size: 384
-AnimationFrame Count: 57
-AnimationFrame Data Size: 912
-Sprites: 25
-Sprites Data Size: 350
+Animations Count: 28
+Animations Data Size: 448
+AnimationFrame Count: 79
+AnimationFrame Data Size: 1264
+Sprites: 33
+Sprites Data Size: 462
 Attack Data: 4
 Attack Data Size: 352
 Misc data size: 68
@@ -29,15 +29,15 @@ Misc data size: 68
 Music file metal_squad Original size 106880 Crunched size 106880
 Panel (default background) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 35168 Crunched size 3258
-Project virtual machine (codeblocks) Original size 9504 Crunched size 9504
+Project virtual machine (codeblocks) Original size 10044 Crunched size 10044
 Map actor data for stage_1 Original size 140 Crunched size 140
 Header data for map stage_1 Original size 836 Crunched size 836
 Tile data for map stage_1 (mem restrictions:None) Original size 1720 Crunched size 1720
-Asset bundle 0 (Core project asset bundle) Original size 120510 Crunched size 120510
+Asset bundle 0 (Core project asset bundle) Original size 152790 Crunched size 152790
 Asset bundle 1 (stage_1) Original size 11922 Crunched size 11922
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 4404
-Project Data Original size 5628 Crunched size 5628
+Project Data Original size 7124 Crunched size 7124
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -47,7 +47,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 35168
 Music memory (metal_squad): 106880
 BP Buffer memory: 109600
-core sfx/gfx memory: 120510
+core sfx/gfx memory: 152790
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -58,20 +58,22 @@ Map actor cache memory: 0
 Map data memory: 1720
 Map background memory: 1296
 EXE memory: 196960
-vm memory: 9504
-project memory: 5628
+vm memory: 10044
+project memory: 7124
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 471486
-Accounted memory other: 329804
-Accounted memory total: 801290
+Accounted memory chip: 503766
+Accounted memory other: 331840
+Accounted memory total: 835606
 
 === Possibly unused animations ===
 enemies_axe_grunt_die_l
 ken_duck_punch_l
 ken_duck_punch_r
+ken_punch_l
+ken_punch_r
 
 === Codeblocks by compiled size ===
 load_level: 550
@@ -110,7 +112,13 @@ load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
 autogen_enemies_axegrunt_attack_l_1: 90
 autogen_enemies_axegrunt_attack_r_1: 90
+autogen_ken_jump_atk_kick_l_1: 90
+autogen_ken_jump_atk_kick_l_5: 90
+autogen_ken_jump_atk_kick_r_1: 90
+autogen_ken_jump_atk_kick_r_5: 90
 autogen_ken_punch_l_1: 90
+autogen_ken_standing_kick_l_1: 90
+autogen_ken_standing_kick_r_1: 90
 fadeout: 88
 autogen_ken_punch_r_1: 88
 pre_anim5: 86 (Unused?)

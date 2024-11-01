@@ -130,6 +130,87 @@
       "Properties": {
         "PreventMovement": "True"
       }
+    },
+    "standing_kick_r": {
+      "FrameData": [
+        {
+          "FrameID": "kick_01",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "kick_02",
+          "Duration": 3,
+          "Properties": {}
+        },
+        {
+          "FrameID": "kick_01",
+          "Duration": 3,
+          "Properties": {}
+        }
+      ],
+      "Properties": {}
+    },
+    "jump_atk_kick_r": {
+      "FrameData": [
+        {
+          "FrameID": "jump_kick_01",
+          "Duration": 1,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "jump_kick_02",
+          "Duration": 2,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "jump_kick_02",
+          "Duration": 2,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "jump_kick_01",
+          "Duration": 1,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "jump_kick_03",
+          "Duration": 1,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "jump_kick_04",
+          "Duration": 2,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "jump_kick_04",
+          "Duration": 2,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "jump_kick_03",
+          "Duration": 2,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        }
+      ],
+      "Properties": {}
     }
   },
   "Frames": {
@@ -448,6 +529,175 @@
       "ColRects": {},
       "Properties": {
         "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "kick_01": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\kick_upper_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\kick_lower_01.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "kick_02": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\kick_02_fullbody.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "standing_kick": {
+          "Value": 0,
+          "X": -2,
+          "Y": -83,
+          "Width": 33,
+          "Height": 67,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "jump_kick_01": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\jump_kick_lower_01.png",
+          "HandleX": -19,
+          "HandleY": -59,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\kick_upper_01.png",
+          "HandleX": -50,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "jump_kick_02": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\kick_02_fullbody.png",
+          "HandleX": -53,
+          "HandleY": -112,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "kick_01": {
+          "Value": 0,
+          "X": -2,
+          "Y": -85,
+          "Width": 35,
+          "Height": 60,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
+      "Properties": {
+        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"kick_01\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"Box\": {\r\n        \"X\": -2,\r\n        \"Y\": -85,\r\n        \"Width\": 35,\r\n        \"Height\": 60\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
+      }
+    },
+    "jump_kick_03": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\kick_upper_01.png",
+          "HandleX": -50,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\jump_kick_lower_03.png",
+          "HandleX": -14,
+          "HandleY": -56,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "jump_kick_04": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\kick_04_fullbody.png",
+          "HandleX": -23,
+          "HandleY": -90,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {
+        "kick_2": {
+          "Value": 0,
+          "X": -2,
+          "Y": -86,
+          "Width": 37,
+          "Height": 63,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {
+            "HurtBox": "False"
+          }
+        }
+      },
+      "Properties": {
+        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"kick_2\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"Box\": {\r\n        \"X\": -2,\r\n        \"Y\": -86,\r\n        \"Width\": 37,\r\n        \"Height\": 63\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
       }
     }
   },
