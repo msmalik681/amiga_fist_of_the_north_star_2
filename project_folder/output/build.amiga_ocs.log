@@ -1,5 +1,5 @@
-Compiled on 01 November 2024 14:58:35
-Version string: SE2024.2.241031.17.39.EX
+Compiled on 02 November 2024 11:42:02
+Version string: SE2024.2.241102.15.53.EX
 
 === Misc ===
 ImageFrames: 78
@@ -57,7 +57,7 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 1720
 Map background memory: 1296
-EXE memory: 196960
+EXE memory: 197016
 vm memory: 10044
 project memory: 7124
 memory reserved for active actors on screen (32): 4616
@@ -65,15 +65,15 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 503766
-Accounted memory other: 331840
-Accounted memory total: 835606
+Accounted memory other: 331896
+Accounted memory total: 835662
 
 === Possibly unused animations ===
 enemies_axe_grunt_die_l
 ken_duck_punch_l
 ken_duck_punch_r
-ken_punch_l
-ken_punch_r
+ken_standing_kick_l
+ken_standing_kick_r
 
 === Codeblocks by compiled size ===
 load_level: 550
