@@ -147,7 +147,7 @@
   "DivertOutOfScreenUp": "",
   "DivertOutOfScreenDown": "",
   "DivertPlatformEdge": null,
-  "DivertPlatformLand": null,
+  "DivertPlatformLand": "player_land",
   "DivertTimer": "player_on_timer",
   "DivertTimerFrames": 0,
   "Vars": [

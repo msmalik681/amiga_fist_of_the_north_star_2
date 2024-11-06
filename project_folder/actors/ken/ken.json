@@ -106,7 +106,7 @@
           "FrameID": "duck_punch_02",
           "Duration": 3,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "RetroAnimator"
           }
         }
       ],
@@ -126,6 +126,13 @@
         {
           "FrameID": "jump_punch_02",
           "Duration": 3,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "jump",
+          "Duration": 0,
           "Properties": {
             "RenderType": "OnlySprite"
           }
@@ -206,6 +213,13 @@
           "Properties": {
             "RenderType": "OnlySprite"
           }
+        },
+        {
+          "FrameID": "jump",
+          "Duration": 0,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
         }
       ],
       "Properties": {}
@@ -215,17 +229,23 @@
         {
           "FrameID": "duck_kick_01",
           "Duration": 2,
-          "Properties": {}
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
         },
         {
           "FrameID": "duck_kick_02",
           "Duration": 2,
-          "Properties": {}
+          "Properties": {
+            "RenderType": "RetroAnimator"
+          }
         },
         {
           "FrameID": "duck_kick_01",
           "Duration": 2,
-          "Properties": {}
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
         }
       ],
       "Properties": {
