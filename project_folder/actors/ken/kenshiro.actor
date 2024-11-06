@@ -29,12 +29,12 @@
   "Attacks": {
     "UpLeft": "",
     "Up": "",
-    "UpRight": "ken_jump_atk_kick_r",
+    "UpRight": "",
     "Left": "",
-    "Right": "ken_punch_r",
+    "Right": "",
     "DownLeft": "",
     "Down": "",
-    "DownRight": "ken_jump_atk_punch_r"
+    "DownRight": ""
   },
   "ProjectileOffsets": [
     {

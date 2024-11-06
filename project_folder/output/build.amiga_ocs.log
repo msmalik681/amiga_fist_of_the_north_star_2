@@ -1,9 +1,9 @@
-Compiled on 02 November 2024 11:42:02
-Version string: SE2024.2.241102.15.53.EX
+Compiled on 06 November 2024 18:36:34
+Version string: SE2024.2.241105.11.03.EX
 
 === Misc ===
-ImageFrames: 78
-ImageFrame Data Size: 3432
+ImageFrames: 80
+ImageFrame Data Size: 3520
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 5
@@ -12,42 +12,42 @@ Block Count: 2
 Block Data Size: 136
 Anim5 Count: 0
 Anim5 Data Size: 0
-Sound Count: 1
-Sound Data Size: 28
+Sound Count: 2
+Sound Data Size: 56
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 28
-Animations Data Size: 448
-AnimationFrame Count: 79
-AnimationFrame Data Size: 1264
-Sprites: 33
-Sprites Data Size: 462
-Attack Data: 4
-Attack Data Size: 352
+Animations Count: 30
+Animations Data Size: 480
+AnimationFrame Count: 81
+AnimationFrame Data Size: 1296
+Sprites: 35
+Sprites Data Size: 490
+Attack Data: 3
+Attack Data Size: 264
 Misc data size: 68
 === Image optimisations ===
 Music file metal_squad Original size 106880 Crunched size 106880
 Panel (default background) Original size 1296 Crunched size 76
-Panel scorpion_eng_splashscreen Original size 35168 Crunched size 3258
-Project virtual machine (codeblocks) Original size 10044 Crunched size 10044
+Panel scorpion_eng_splashscreen Original size 34288 Crunched size 3260
+Project virtual machine (codeblocks) Original size 10922 Crunched size 10922
 Map actor data for stage_1 Original size 140 Crunched size 140
-Header data for map stage_1 Original size 836 Crunched size 836
+Header data for map stage_1 Original size 840 Crunched size 840
 Tile data for map stage_1 (mem restrictions:None) Original size 1720 Crunched size 1720
-Asset bundle 0 (Core project asset bundle) Original size 152790 Crunched size 152790
+Asset bundle 0 (Core project asset bundle) Original size 156503 Crunched size 156503
 Asset bundle 1 (stage_1) Original size 11922 Crunched size 11922
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 4404
-Project Data Original size 7124 Crunched size 7124
+Project Data Original size 7268 Crunched size 7268
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (Panel: scorpion_eng_splashscreen): 35168
+Map gfx (Panel: scorpion_eng_splashscreen): 34288
 Music memory (metal_squad): 106880
 BP Buffer memory: 109600
-core sfx/gfx memory: 152790
+core sfx/gfx memory: 156503
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -57,39 +57,42 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 1720
 Map background memory: 1296
-EXE memory: 197016
-vm memory: 10044
-project memory: 7124
+EXE memory: 197056
+vm memory: 10922
+project memory: 7268
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 503766
-Accounted memory other: 331896
-Accounted memory total: 835662
+Accounted memory chip: 506599
+Accounted memory other: 332958
+Accounted memory total: 839557
 
 === Possibly unused animations ===
 enemies_axe_grunt_die_l
+ken_duck_kick_l
 ken_duck_punch_l
-ken_duck_punch_r
+ken_jump_atk_kick_l
+ken_jump_atk_punch_l
+ken_punch_l
 ken_standing_kick_l
-ken_standing_kick_r
 
 === Codeblocks by compiled size ===
 load_level: 550
 do_teleport: 402
 pre_startup: 366
 flipscreen_smooth: 310 (Unused?)
+attack_button_1_punch: 280
 flipxymove: 278 (Unused?)
 enemy_pop: 254
 load_next_level: 252 (Unused?)
+attack_button_2_kick: 228
 player_on_timer: 224
-kenshiro_autogen_attack: 216
 block_find: 206 (Unused?)
 set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192 (Unused?)
-kenshiro_ducking_autogen_attack: 184
+kenshiro_autogen_attack: 184
 startup: 180
 block_count: 178 (Unused?)
 pause: 176
@@ -102,7 +105,9 @@ unload_level: 142
 destroy_all_blocks: 128 (Unused?)
 restart_this_level: 128 (Unused?)
 pre_load_level: 122
+autogen_ken_punch_l_1: 116
 waitforfireup: 114
+autogen_ken_punch_r_1: 114
 fadein: 112
 waitforfiredown: 110
 unload_panel: 106
@@ -112,15 +117,19 @@ load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
 autogen_enemies_axegrunt_attack_l_1: 90
 autogen_enemies_axegrunt_attack_r_1: 90
+autogen_ken_duck_kick_l_1: 90
+autogen_ken_duck_punch_l_1: 90
 autogen_ken_jump_atk_kick_l_1: 90
-autogen_ken_jump_atk_kick_l_5: 90
+autogen_ken_jump_atk_kick_l_4: 90
 autogen_ken_jump_atk_kick_r_1: 90
-autogen_ken_jump_atk_kick_r_5: 90
-autogen_ken_punch_l_1: 90
+autogen_ken_jump_atk_kick_r_4: 90
+autogen_ken_jump_atk_punch_l_1: 90
 autogen_ken_standing_kick_l_1: 90
 autogen_ken_standing_kick_r_1: 90
 fadeout: 88
-autogen_ken_punch_r_1: 88
+autogen_ken_duck_kick_r_1: 88
+autogen_ken_duck_punch_r_1: 88
+autogen_ken_jump_atk_punch_r_1: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 load_music: 78 (Unused?)
