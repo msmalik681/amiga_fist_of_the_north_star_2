@@ -1,5 +1,5 @@
-Compiled on 06 November 2024 19:27:20
-Version string: SE2024.2.241105.11.03.EX
+Compiled on 07 November 2024 18:52:42
+Version string: SE2024.2.241107.21.55.EX
 
 === Misc ===
 ImageFrames: 84
@@ -30,12 +30,13 @@ Music file boss_loop Original size 72766 Crunched size 72766
 Music file metal_squad Original size 106880 Crunched size 106880
 Panel (default background) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 34288 Crunched size 3260
-Project virtual machine (codeblocks) Original size 11112 Crunched size 11112
-Map actor data for stage_1 Original size 140 Crunched size 140
+Panel hud Original size 6108 Crunched size 6108
+Project virtual machine (codeblocks) Original size 11362 Crunched size 11362
+Map actor data for stage_1 Original size 28 Crunched size 28
 Header data for map stage_1 Original size 840 Crunched size 840
-Tile data for map stage_1 (mem restrictions:None) Original size 1720 Crunched size 1720
-Asset bundle 0 (Core project asset bundle) Original size 149591 Crunched size 149591
-Asset bundle 1 (stage_1) Original size 11922 Crunched size 11922
+Tile data for map stage_1 (mem restrictions:None) Original size 8036 Crunched size 8036
+Asset bundle 0 (Core project asset bundle) Original size 99229 Crunched size 99229
+Asset bundle 1 (stage_1) Original size 23800 Crunched size 23800
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 4404
 Project Data Original size 7508 Crunched size 7508
@@ -47,8 +48,8 @@ Project virtual machine redirects Original size 4 Crunched size 4
 For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 34288
 Music memory (metal_squad): 106880
-BP Buffer memory: 109600
-core sfx/gfx memory: 149591
+BP Buffer memory: 121880
+core sfx/gfx memory: 99229
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -56,18 +57,18 @@ For other:
 Map cache memory: 0
 Map header cache memory: 0
 Map actor cache memory: 0
-Map data memory: 1720
+Map data memory: 8036
 Map background memory: 1296
-EXE memory: 197056
-vm memory: 11112
+EXE memory: 197040
+vm memory: 11362
 project memory: 7508
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 499687
-Accounted memory other: 333388
-Accounted memory total: 833075
+Accounted memory chip: 461605
+Accounted memory other: 339938
+Accounted memory total: 801543
 
 === Possibly unused animations ===
 enemies_axe_grunt_die_l
@@ -83,10 +84,11 @@ load_level: 550
 do_teleport: 402
 pre_startup: 366
 flipscreen_smooth: 310 (Unused?)
+enemy_pop: 300
 attack_button_1_punch: 280
 flipxymove: 278 (Unused?)
-enemy_pop: 262
 load_next_level: 252 (Unused?)
+startup: 234
 attack_button_2_kick: 228
 player_on_timer: 224
 block_find: 206 (Unused?)
@@ -94,14 +96,14 @@ set_yresolution: 202
 waitforframes: 194
 check_talkpad: 192 (Unused?)
 kenshiro_autogen_attack: 184
-startup: 180
 block_count: 178 (Unused?)
 pause: 176
+stage_timer: 168
 flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)
 pre_quit: 152
 load_panel: 146
-flipxmove: 142
+flipxmove: 142 (Unused?)
 unload_level: 142
 enemy_damage: 132
 destroy_all_blocks: 128 (Unused?)
@@ -135,7 +137,6 @@ autogen_ken_jump_atk_punch_r_1: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
 load_music: 78 (Unused?)
-AUTOGEN_OUTOFSCREEN_flipxmove_flipxmove_None_None: 78
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)
 wrap_screen_right: 76 (Unused?)
@@ -158,6 +159,7 @@ return: 52 (Unused?)
 regenerate_screen_wait: 46
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
+count_enemies: 40
 autogen_enemies_axe_grunt_die_l_1: 38
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)
@@ -165,3 +167,4 @@ clear_block_collision: 32
 vm_registers: 26 (Unused?)
 debug_breakpoint: 26 (Unused?)
 vm_constants_tile_properties: 26 (Unused?)
+enemy_land: 26

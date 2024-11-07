@@ -90,7 +90,7 @@
         }
       ],
       "Properties": {
-        "PreventMovement": "True"
+        "PreventMovement": "False"
       }
     },
     "duck_punch_r": {
