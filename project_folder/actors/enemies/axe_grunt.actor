@@ -1,7 +1,7 @@
 {
   "ShootDirType": "actor_direction",
-  "DefaultLookDir": "left",
-  "Recycle": "Never",
+  "DefaultLookDir": "right",
+  "Recycle": "Trash",
   "MoveType": "cpu_platform",
   "MaxEntities": 0,
   "NudgeX": 7,

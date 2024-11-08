@@ -1,5 +1,5 @@
-Compiled on 07 November 2024 18:52:42
-Version string: SE2024.2.241107.21.55.EX
+Compiled on 08 November 2024 09:34:16
+Version string: SE2024.2.241108.16.32.EX
 
 === Misc ===
 ImageFrames: 84
@@ -30,8 +30,9 @@ Music file boss_loop Original size 72766 Crunched size 72766
 Music file metal_squad Original size 106880 Crunched size 106880
 Panel (default background) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 34288 Crunched size 3260
-Panel hud Original size 6108 Crunched size 6108
-Project virtual machine (codeblocks) Original size 11362 Crunched size 11362
+Panel hud Original size 6140 Crunched size 6140
+Panel bobs hud Original size 540 Crunched size 540
+Project virtual machine (codeblocks) Original size 11776 Crunched size 11776
 Map actor data for stage_1 Original size 28 Crunched size 28
 Header data for map stage_1 Original size 840 Crunched size 840
 Tile data for map stage_1 (mem restrictions:None) Original size 8036 Crunched size 8036
@@ -60,15 +61,15 @@ Map actor cache memory: 0
 Map data memory: 8036
 Map background memory: 1296
 EXE memory: 197040
-vm memory: 11362
+vm memory: 11776
 project memory: 7508
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 461605
-Accounted memory other: 339938
-Accounted memory total: 801543
+Accounted memory other: 340352
+Accounted memory total: 801957
 
 === Possibly unused animations ===
 enemies_axe_grunt_die_l
@@ -83,6 +84,7 @@ ken_standing_kick_l
 load_level: 550
 do_teleport: 402
 pre_startup: 366
+stage_timer: 350
 flipscreen_smooth: 310 (Unused?)
 enemy_pop: 300
 attack_button_1_punch: 280
@@ -98,7 +100,7 @@ check_talkpad: 192 (Unused?)
 kenshiro_autogen_attack: 184
 block_count: 178 (Unused?)
 pause: 176
-stage_timer: 168
+count_enemies: 166
 flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)
 pre_quit: 152
@@ -115,6 +117,7 @@ autogen_ken_punch_r_1: 114
 fadein: 112
 waitforfiredown: 110
 unload_panel: 106
+offscreen_kill: 106 (Unused?)
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
@@ -159,7 +162,6 @@ return: 52 (Unused?)
 regenerate_screen_wait: 46
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
-count_enemies: 40
 autogen_enemies_axe_grunt_die_l_1: 38
 block_coll_force: 32 (Unused?)
 block_coll_passthru: 32 (Unused?)

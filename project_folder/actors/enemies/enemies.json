@@ -32,7 +32,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "OnFinish": ""
+      }
     },
     "axegrunt_attack_r": {
       "FrameData": [

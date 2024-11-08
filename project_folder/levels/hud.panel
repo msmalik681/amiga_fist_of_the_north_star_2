@@ -18,13 +18,29 @@
   "FireIndicatorX": 0,
   "FireIndicatorY": 0,
   "Options": [],
-  "Elements": [],
+  "Elements": [
+    {
+      "PanelElementType": 0,
+      "Variable": "enemy_count",
+      "X": 207,
+      "Y": 26,
+      "NumberFont": "defaultnumberfont",
+      "Font": null,
+      "BarImage": null,
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "MaxValue": 9
+    }
+  ],
   "GFXMode": "BP3",
   "PanelSlot": "Bottom",
   "PanelOptionSound": "none",
   "OverlapsGameView": false,
   "CenterAdjustments": {
-    "0": 0,
+    "0": 16,
     "1": 0,
     "2": 0,
     "3": 0
@@ -32,10 +48,10 @@
   "CenterAdjust_MegaDrive": 0,
   "MegaDrivePaletteLines": {
     "Start": 3,
-    "Talkpad": 0,
-    "FireIndicator": 0,
-    "ChoiceIndicator": 0,
-    "NumberFont": 0,
+    "Talkpad": 3,
+    "FireIndicator": 3,
+    "ChoiceIndicator": 3,
+    "NumberFont": 3,
     "Total": 1
   },
   "NeoGeoPaletteLines": {
