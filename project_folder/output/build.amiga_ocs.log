@@ -1,5 +1,5 @@
-Compiled on 08 November 2024 15:46:58
-Version string: SE2024.2.241108.16.32.EX
+Compiled on 09 November 2024 11:53:38
+Version string: SE2024.2.241109.23.48.EX
 
 === Misc ===
 ImageFrames: 86
@@ -32,7 +32,7 @@ Panel (default background) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 34288 Crunched size 3260
 Panel hud Original size 6140 Crunched size 6140
 Panel bobs hud Original size 540 Crunched size 540
-Project virtual machine (codeblocks) Original size 12406 Crunched size 12406
+Project virtual machine (codeblocks) Original size 12446 Crunched size 12446
 Map actor data for stage_1 Original size 28 Crunched size 28
 Header data for map stage_1 Original size 840 Crunched size 840
 Tile data for map stage_1 (mem restrictions:None) Original size 8036 Crunched size 8036
@@ -61,15 +61,15 @@ Map actor cache memory: 0
 Map data memory: 8036
 Map background memory: 1296
 EXE memory: 197040
-vm memory: 12406
+vm memory: 12446
 project memory: 7800
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 485011
-Accounted memory other: 341274
-Accounted memory total: 826285
+Accounted memory other: 341314
+Accounted memory total: 826325
 
 === Possibly unused animations ===
 enemies_axe_grunt_die_l
@@ -90,8 +90,8 @@ flipscreen_smooth: 310 (Unused?)
 enemy_pop: 300
 attack_button_1_punch: 280
 flipxymove: 278 (Unused?)
+startup: 274
 load_next_level: 252 (Unused?)
-startup: 234
 attack_button_2_kick: 228
 player_on_timer: 224
 block_find: 206 (Unused?)
@@ -141,7 +141,7 @@ autogen_ken_jump_atk_kick_r_4: 90
 fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
-load_music: 78 (Unused?)
+load_music: 78
 autogen_enemies_axe_grunt_die_l_1: 78
 load_music_finish: 76
 wrap_screen_bottom: 76 (Unused?)

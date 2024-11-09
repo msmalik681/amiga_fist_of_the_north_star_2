@@ -671,7 +671,7 @@
         "a": 255
       },
       "Sound": "",
-      "Music": "",
+      "Music": "metal_squad",
       "MusicPos": "0",
       "SpeakDelay": 1,
       "Platform": "all",
