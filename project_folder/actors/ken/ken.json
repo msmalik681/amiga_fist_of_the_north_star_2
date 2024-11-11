@@ -62,14 +62,14 @@
       "FrameData": [
         {
           "FrameID": "punch_01",
-          "Duration": 3,
+          "Duration": 2,
           "Properties": {
             "RenderType": "OnlySprite"
           }
         },
         {
           "FrameID": "punch_02",
-          "Duration": 3,
+          "Duration": 2,
           "Properties": {
             "RenderType": "OnlySprite"
           }
@@ -97,14 +97,14 @@
       "FrameData": [
         {
           "FrameID": "duck_punch_01",
-          "Duration": 3,
+          "Duration": 2,
           "Properties": {
             "RenderType": "OnlySprite"
           }
         },
         {
           "FrameID": "duck_punch_02",
-          "Duration": 3,
+          "Duration": 2,
           "Properties": {
             "RenderType": "RetroAnimator"
           }
@@ -118,7 +118,7 @@
       "FrameData": [
         {
           "FrameID": "jump_punch_01",
-          "Duration": 3,
+          "Duration": 2,
           "Properties": {
             "RenderType": "OnlySprite"
           }
@@ -151,14 +151,14 @@
         },
         {
           "FrameID": "kick_02",
-          "Duration": 3,
+          "Duration": 2,
           "Properties": {
             "RenderType": "OnlySprite"
           }
         },
         {
           "FrameID": "kick_01",
-          "Duration": 3,
+          "Duration": 2,
           "Properties": {
             "RenderType": "OnlySprite"
           }
@@ -238,7 +238,7 @@
         },
         {
           "FrameID": "duck_kick_01",
-          "Duration": 2,
+          "Duration": 1,
           "Properties": {
             "RenderType": "OnlySprite"
           }
@@ -252,7 +252,7 @@
       "FrameData": [
         {
           "FrameID": "pain",
-          "Duration": 6,
+          "Duration": 5,
           "Properties": {
             "RenderType": "OnlySprite"
           }

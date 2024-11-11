@@ -61,7 +61,7 @@
       "FrameData": [
         {
           "FrameID": "axegrunt_die_01",
-          "Duration": 10,
+          "Duration": 6,
           "Properties": {
             "RenderType": "Sliced"
           }
@@ -92,6 +92,23 @@
         "PreventMovement": "True",
         "PreventCollision": "True",
         "OnFinish": "destroy_actor"
+      }
+    },
+    "axe_grunt_bump_r": {
+      "FrameData": [
+        {
+          "FrameID": "axegrunt_die_01",
+          "Duration": 5,
+          "Properties": {
+            "RenderType": "Sliced"
+          }
+        }
+      ],
+      "Properties": {
+        "PreventMovement": "True",
+        "PreventCollision": "True",
+        "OnFinish": "",
+        "PreventAttack": "True"
       }
     }
   },

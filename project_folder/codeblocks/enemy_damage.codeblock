@@ -281,7 +281,7 @@
       "YFloat": null,
       "ActorType": "none",
       "Animation": "none",
-      "PushXPixels": "-70 * actor_var1",
+      "PushXPixels": "-60 * actor_var1",
       "PushYPixels": "",
       "LookDirection": "look_upleft",
       "ResetMovement": true,
@@ -289,7 +289,7 @@
       "ShootDirType": "actor_direction",
       "Panel": "none",
       "WaitForFireHit": false,
-      "Frames": "8",
+      "Frames": "5",
       "CameraX": "",
       "CameraY": "",
       "CameraBox": {

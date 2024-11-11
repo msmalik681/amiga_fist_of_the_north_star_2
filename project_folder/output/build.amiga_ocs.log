@@ -1,9 +1,9 @@
-Compiled on 09 November 2024 11:53:38
-Version string: SE2024.2.241109.23.48.EX
+Compiled on 11 November 2024 10:23:05
+Version string: SE2024.2.241111.00.11.EX
 
 === Misc ===
-ImageFrames: 86
-ImageFrame Data Size: 3784
+ImageFrames: 88
+ImageFrame Data Size: 3872
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 5
@@ -16,10 +16,10 @@ Sound Count: 6
 Sound Data Size: 168
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 32
-Animations Data Size: 512
-AnimationFrame Count: 87
-AnimationFrame Data Size: 1392
+Animations Count: 34
+Animations Data Size: 544
+AnimationFrame Count: 89
+AnimationFrame Data Size: 1424
 Sprites: 37
 Sprites Data Size: 518
 Attack Data: 3
@@ -32,15 +32,15 @@ Panel (default background) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 34288 Crunched size 3260
 Panel hud Original size 6140 Crunched size 6140
 Panel bobs hud Original size 540 Crunched size 540
-Project virtual machine (codeblocks) Original size 12446 Crunched size 12446
+Project virtual machine (codeblocks) Original size 12616 Crunched size 12616
 Map actor data for stage_1 Original size 28 Crunched size 28
 Header data for map stage_1 Original size 840 Crunched size 840
 Tile data for map stage_1 (mem restrictions:None) Original size 8036 Crunched size 8036
-Asset bundle 0 (Core project asset bundle) Original size 122635 Crunched size 122635
+Asset bundle 0 (Core project asset bundle) Original size 122283 Crunched size 122283
 Asset bundle 1 (stage_1) Original size 23800 Crunched size 23800
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 4404
-Project Data Original size 7800 Crunched size 7800
+Project Data Original size 7952 Crunched size 7952
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -50,7 +50,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 34288
 Music memory (metal_squad): 106880
 BP Buffer memory: 121880
-core sfx/gfx memory: 122635
+core sfx/gfx memory: 122283
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -61,17 +61,18 @@ Map actor cache memory: 0
 Map data memory: 8036
 Map background memory: 1296
 EXE memory: 197040
-vm memory: 12446
-project memory: 7800
+vm memory: 12616
+project memory: 7952
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 485011
-Accounted memory other: 341314
-Accounted memory total: 826325
+Accounted memory chip: 484659
+Accounted memory other: 341636
+Accounted memory total: 826295
 
 === Possibly unused animations ===
+enemies_axe_grunt_bump_l
 enemies_axe_grunt_die_l
 ken_duck_kick_l
 ken_duck_punch_l
@@ -86,6 +87,7 @@ load_level: 550
 do_teleport: 402
 pre_startup: 366
 stage_timer: 348
+enemy_bump: 344
 flipscreen_smooth: 310 (Unused?)
 enemy_pop: 300
 attack_button_1_punch: 280
@@ -101,7 +103,6 @@ check_talkpad: 192 (Unused?)
 kenshiro_ducking_autogen_attack: 184
 block_count: 178 (Unused?)
 pause: 176
-enemy_bump: 174
 count_enemies: 166
 flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)

@@ -128,6 +128,37 @@
       "OnPress": "attack_button_1_punch",
       "OnRelease": null,
       "buttonState": 1
+    },
+    {
+      "Compiler": "amiga",
+      "Key": "Q",
+      "JoystickPort": -1,
+      "JoystickX": 0,
+      "JoystickY": 0,
+      "JoystickFire1": false,
+      "JoystickFire2": false,
+      "CD32Play": false,
+      "CD32Reverse": false,
+      "CD32Forward": false,
+      "CD32Green": false,
+      "CD32Yellow": false,
+      "MegaDrive_B": false,
+      "MegaDrive_C": false,
+      "MegaDrive_A": false,
+      "MegaDrive_Start": false,
+      "MegaDrive_X": false,
+      "MegaDrive_Y": false,
+      "MegaDrive_Z": false,
+      "MegaDrive_Mode": false,
+      "Neo_A": false,
+      "Neo_B": false,
+      "Neo_C": false,
+      "Neo_D": false,
+      "Neo_Start": false,
+      "Neo_Select": false,
+      "OnPress": "pre_quit",
+      "OnRelease": null,
+      "buttonState": 0
     }
   ],
   "AnimationMetaData": {},
@@ -139,10 +170,42 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "bump": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "head_pop": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "hit": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "jump_kicks": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
-  "NumberFontMetaData": {},
+  "NumberFontMetaData": {
+    "defaultnumberfont": {
+      "Radix": 10
+    }
+  },
   "FontMetaData": {},
   "SplashScreen": null,
   "LogicSpeed": "PAL_25HZ",
@@ -152,5 +215,6 @@
   "MDSoundDriver": "MDSDRV",
   "SplashScreenFrames": 50,
   "TestLevel": null,
-  "SafetyRails": false
+  "SafetyRails": false,
+  "NGH": 21317
 }

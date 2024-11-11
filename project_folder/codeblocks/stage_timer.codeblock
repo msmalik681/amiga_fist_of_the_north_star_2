@@ -966,7 +966,7 @@
         {
           "LeftSide": "enemy_count",
           "Comparison": "LessThan",
-          "RightSide": "3",
+          "RightSide": "4",
           "ComparisonNext": "End",
           "IsValid": true
         }
