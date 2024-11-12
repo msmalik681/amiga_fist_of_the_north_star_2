@@ -1,0 +1,169 @@
+{
+  "ProjectType": "RetroAnimator",
+  "Animations": {
+    "power_up_r": {
+      "FrameData": [
+        {
+          "FrameID": "power_up_01",
+          "Duration": 8,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "power_up_02",
+          "Duration": 3,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "power_up_03",
+          "Duration": 3,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "power_up_04",
+          "Duration": 3,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        },
+        {
+          "FrameID": "power_up_05",
+          "Duration": 8,
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
+        }
+      ],
+      "Properties": {}
+    }
+  },
+  "Frames": {
+    "power_up_01": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\idle_lower.png",
+          "HandleX": -55,
+          "HandleY": -111,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\pain_upper.png",
+          "HandleX": -13,
+          "HandleY": -79,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "power_up_05": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\full_shirt_rip.png",
+          "HandleX": -25,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "power_up_02": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\full_shirt_rip.png",
+          "HandleX": -25,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\shirt_rip_01.png",
+          "HandleX": -25,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "power_up_03": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\full_shirt_rip.png",
+          "HandleX": -25,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\shirt_rip_02.png",
+          "HandleX": -25,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "power_up_04": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\full_shirt_rip.png",
+          "HandleX": -25,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\shirt_rip_03.png",
+          "HandleX": -25,
+          "HandleY": -87,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    }
+  },
+  "Properties": {}
+}

@@ -33,6 +33,36 @@
       "PaletteLine_MegaDrive": 3,
       "PaletteLine_NeoGeo": 15,
       "MaxValue": 9
+    },
+    {
+      "PanelElementType": 2,
+      "Variable": "player_hp",
+      "X": 130,
+      "Y": 12,
+      "NumberFont": "",
+      "Font": null,
+      "BarImage": "hud_lifebar.png",
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "MaxValue": 100
+    },
+    {
+      "PanelElementType": 2,
+      "Variable": "player_pow",
+      "X": 130,
+      "Y": 26,
+      "NumberFont": null,
+      "Font": null,
+      "BarImage": "hud_powerbar.png",
+      "CounterImage1": null,
+      "CounterDivisions": 1,
+      "IsHighPriority": true,
+      "PaletteLine_MegaDrive": 3,
+      "PaletteLine_NeoGeo": 15,
+      "MaxValue": 100
     }
   ],
   "GFXMode": "BP3",

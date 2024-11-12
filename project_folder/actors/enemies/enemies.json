@@ -143,7 +143,19 @@
           "Properties": {}
         }
       ],
-      "ColRects": {},
+      "ColRects": {
+        "attack_trigger": {
+          "Value": 0,
+          "X": -5,
+          "Y": -80,
+          "Width": 53,
+          "Height": 81,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
       "Properties": {
         "Events": "{\r\n  \"Events\": []\r\n}"
       }
@@ -178,7 +190,19 @@
           "Properties": {}
         }
       ],
-      "ColRects": {},
+      "ColRects": {
+        "02": {
+          "Value": 0,
+          "X": -5,
+          "Y": -80,
+          "Width": 53,
+          "Height": 80,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
       "Properties": {
         "Events": "{\r\n  \"Events\": []\r\n}"
       }
@@ -213,7 +237,19 @@
           "Properties": {}
         }
       ],
-      "ColRects": {},
+      "ColRects": {
+        "02": {
+          "Value": 0,
+          "X": -5,
+          "Y": -80,
+          "Width": 53,
+          "Height": 81,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
       "Properties": {
         "Events": "{\r\n  \"Events\": []\r\n}"
       }
