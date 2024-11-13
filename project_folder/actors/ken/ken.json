@@ -344,6 +344,15 @@
           "NoFlip": false,
           "RenderMode": 0,
           "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\back_foot_walk.png",
+          "HandleX": -23,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
         }
       ],
       "ColRects": {},
@@ -983,6 +992,41 @@
           "FramePath": "Cropped parts\\die_upper_02.png",
           "HandleX": -6,
           "HandleY": -14,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        }
+      ],
+      "ColRects": {},
+      "Properties": {
+        "Events": "{\r\n  \"Events\": []\r\n}"
+      }
+    },
+    "stright_punch": {
+      "Sprites": [
+        {
+          "FramePath": "Cropped parts\\back_foot_walk.png",
+          "HandleX": -18,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\straight_punch_lower.png",
+          "HandleX": -18,
+          "HandleY": -77,
+          "XFlip": false,
+          "NoFlip": false,
+          "RenderMode": 0,
+          "Properties": {}
+        },
+        {
+          "FramePath": "Cropped parts\\straight_punch_upper.png",
+          "HandleX": -18,
+          "HandleY": -77,
           "XFlip": false,
           "NoFlip": false,
           "RenderMode": 0,
