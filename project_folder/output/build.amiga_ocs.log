@@ -1,9 +1,9 @@
-Compiled on 12 November 2024 18:02:16
-Version string: SE2024.2.241112.11.41.EX
+Compiled on 14 November 2024 20:37:54
+Version string: SE2024.2.241114.10.19.EX
 
 === Misc ===
-ImageFrames: 102
-ImageFrame Data Size: 4488
+ImageFrames: 182
+ImageFrame Data Size: 8008
 Maps and Asset Bundles Count: 2
 Maps and Asset Bundles Data Size: 24
 Actor Count: 5
@@ -16,19 +16,19 @@ Sound Count: 6
 Sound Data Size: 168
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 38
-Animations Data Size: 608
-AnimationFrame Count: 103
-AnimationFrame Data Size: 1648
-Sprites: 47
-Sprites Data Size: 658
+Animations Count: 62
+Animations Data Size: 992
+AnimationFrame Count: 183
+AnimationFrame Data Size: 2928
+Sprites: 53
+Sprites Data Size: 742
 Attack Data: 3
 Attack Data Size: 264
 Misc data size: 68
 === Image optimisations ===
 Music file boss_loop Original size 72766 Crunched size 72766
 Music file metal_squad Original size 106880 Crunched size 106880
-Panel (default background) Original size 1296 Crunched size 76
+Panel (background color #000) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 34288 Crunched size 3260
 Panel hud Original size 6204 Crunched size 6204
 Panel bobs hud Original size 746 Crunched size 746
@@ -36,11 +36,11 @@ Project virtual machine (codeblocks) Original size 13522 Crunched size 13522
 Map actor data for stage_1 Original size 28 Crunched size 28
 Header data for map stage_1 Original size 840 Crunched size 840
 Tile data for map stage_1 (mem restrictions:None) Original size 8036 Crunched size 8036
-Asset bundle 0 (Core project asset bundle) Original size 145355 Crunched size 145355
+Asset bundle 0 (Core project asset bundle) Original size 226477 Crunched size 226477
 Asset bundle 1 (stage_1) Original size 23800 Crunched size 23800
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 4404
-Project Data Original size 8996 Crunched size 8996
+Project Data Original size 14264 Crunched size 14264
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -50,7 +50,7 @@ For chip:
 Map gfx (Panel: scorpion_eng_splashscreen): 34288
 Music memory (metal_squad): 106880
 BP Buffer memory: 121880
-core sfx/gfx memory: 145355
+core sfx/gfx memory: 226477
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -60,16 +60,16 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 8036
 Map background memory: 1296
-EXE memory: 197040
+EXE memory: 198352
 vm memory: 13522
-project memory: 8996
+project memory: 14264
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 507731
-Accounted memory other: 343586
-Accounted memory total: 851317
+Accounted memory chip: 588853
+Accounted memory other: 350166
+Accounted memory total: 939019
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -83,6 +83,30 @@ ken_jump_atk_punch_l
 ken_pain_l
 ken_punch_l
 ken_standing_kick_l
+ken_super_die_l
+ken_super_die_r
+ken_super_duck_kick_l
+ken_super_duck_kick_r
+ken_super_duck_punch_l
+ken_super_duck_punch_r
+ken_super_duck_l
+ken_super_duck_r
+ken_super_idle_l
+ken_super_idle_r
+ken_super_jump_atk_kick_l
+ken_super_jump_atk_kick_r
+ken_super_jump_atk_punch_l
+ken_super_jump_atk_punch_r
+ken_super_jump_l
+ken_super_jump_r
+ken_super_pain_l
+ken_super_pain_r
+ken_super_punch_l
+ken_super_punch_r
+ken_super_standing_kick_l
+ken_super_standing_kick_r
+ken_super_walk_l
+ken_super_walk_r
 ken_transform_power_up_l
 ken_transform_power_up_r
 
