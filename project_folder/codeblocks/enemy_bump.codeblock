@@ -102,7 +102,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "actor_var1",
-      "Expression": "-60 * actor_var1",
+      "Expression": "-70 * actor_var1",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,

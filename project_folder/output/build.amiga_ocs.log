@@ -1,4 +1,4 @@
-Compiled on 19 November 2024 15:05:24
+Compiled on 19 November 2024 20:26:31
 Version string: SE2024.2.241119.17.18.EX
 
 === Misc ===
@@ -32,7 +32,7 @@ Panel (background color #000) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 36788 Crunched size 3376
 Panel hud Original size 6204 Crunched size 6204
 Panel bobs hud Original size 746 Crunched size 746
-Project virtual machine (codeblocks) Original size 13882 Crunched size 13882
+Project virtual machine (codeblocks) Original size 13952 Crunched size 13952
 Map actor data for stage_1 Original size 28 Crunched size 28
 Header data for map stage_1 Original size 840 Crunched size 840
 Tile data for map stage_1 (mem restrictions:None) Original size 8036 Crunched size 8036
@@ -63,15 +63,15 @@ Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 199804
-vm memory: 13882
+vm memory: 13952
 project memory: 14644
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 387055
-Accounted memory other: 343026
-Accounted memory total: 730081
+Accounted memory other: 343096
+Accounted memory total: 730151
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -98,7 +98,6 @@ ken_super_jump_atk_kick_r
 ken_super_jump_atk_punch_l
 ken_super_jump_atk_punch_r
 ken_super_pain_l
-ken_super_pain_r
 ken_super_punch_l
 ken_super_punch_r
 ken_super_standing_kick_l
@@ -120,6 +119,7 @@ startup: 294
 attack_button_1_punch: 280
 flipxymove: 278 (Unused?)
 load_next_level: 252 (Unused?)
+player_bump: 238
 attack_button_2_kick: 228
 enemy_hit_player: 214
 block_find: 206 (Unused?)
@@ -131,7 +131,6 @@ kenshiro_ducking_autogen_attack: 184
 player_transform: 182
 block_count: 178 (Unused?)
 pause: 176
-player_bump: 168
 count_enemies: 166
 flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)
