@@ -32,7 +32,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "LinkedMap": "ken_normal"
+      }
     },
     "idle_r": {
       "FrameData": [
@@ -44,7 +46,9 @@
           }
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "LinkedMap": "ken_normal"
+      }
     },
     "jump_r": {
       "FrameData": [
@@ -57,7 +61,8 @@
         }
       ],
       "Properties": {
-        "PreventJump": "True"
+        "PreventJump": "True",
+        "LinkedMap": "ken_normal"
       }
     },
     "punch_r": {
@@ -79,7 +84,8 @@
       ],
       "Properties": {
         "PreventMovement": "True",
-        "PreventJump": "True"
+        "PreventJump": "True",
+        "LinkedMap": "ken_normal"
       }
     },
     "duck_r": {
@@ -94,7 +100,8 @@
       ],
       "Properties": {
         "PreventMovement": "False",
-        "PreventJump": "True"
+        "PreventJump": "True",
+        "LinkedMap": "ken_normal"
       }
     },
     "duck_punch_r": {
@@ -116,7 +123,8 @@
       ],
       "Properties": {
         "PreventMovement": "True",
-        "PreventJump": "True"
+        "PreventJump": "True",
+        "LinkedMap": "ken_normal"
       }
     },
     "jump_atk_punch_r": {
@@ -142,7 +150,8 @@
         }
       ],
       "Properties": {
-        "PreventMovement": "False"
+        "PreventMovement": "False",
+        "LinkedMap": "ken_normal"
       }
     },
     "standing_kick_r": {
@@ -171,7 +180,8 @@
       ],
       "Properties": {
         "PreventMovement": "True",
-        "PreventJump": "True"
+        "PreventJump": "True",
+        "LinkedMap": "ken_normal"
       }
     },
     "jump_atk_kick_r": {
@@ -224,7 +234,9 @@
           "Properties": {}
         }
       ],
-      "Properties": {}
+      "Properties": {
+        "LinkedMap": "ken_normal"
+      }
     },
     "duck_kick_r": {
       "FrameData": [
@@ -252,7 +264,8 @@
       ],
       "Properties": {
         "PreventMovement": "True",
-        "PreventJump": "True"
+        "PreventJump": "True",
+        "LinkedMap": "ken_normal"
       }
     },
     "pain_r": {
@@ -270,7 +283,8 @@
         "PreventJump": "True",
         "PreventAttack": "True",
         "PreventCollision": "True",
-        "OnFinish": "player_land"
+        "OnFinish": "player_land",
+        "LinkedMap": "ken_normal"
       }
     },
     "die_r": {
@@ -294,7 +308,8 @@
         "PreventMovement": "True",
         "PreventCollision": "True",
         "PreventAttack": "True",
-        "PreventJump": "True"
+        "PreventJump": "True",
+        "LinkedMap": "ken_normal"
       }
     }
   },

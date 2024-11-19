@@ -21,4 +21,9 @@
       <property name="Name" value="blood_effect" type="string" />
     </properties>
   </tile>
+  <tile id="4">
+    <properties>
+      <property name="Name" value="super_kenshiro" type="string" />
+    </properties>
+  </tile>
 </tileset>

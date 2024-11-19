@@ -198,6 +198,13 @@
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
+    },
+    "power_up": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
     }
   },
   "MMLMetaData": {},
