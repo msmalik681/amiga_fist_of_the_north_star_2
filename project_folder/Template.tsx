@@ -26,4 +26,9 @@
       <property name="Name" value="super_kenshiro" type="string" />
     </properties>
   </tile>
+  <tile id="5">
+    <properties>
+      <property name="Name" value="super_kenshiro_ducking" type="string" />
+    </properties>
+  </tile>
 </tileset>

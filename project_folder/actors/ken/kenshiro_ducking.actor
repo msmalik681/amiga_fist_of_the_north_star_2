@@ -1,6 +1,6 @@
 {
   "ShootDirType": "actor_direction",
-  "DefaultLookDir": "left",
+  "DefaultLookDir": "right",
   "Recycle": "Default",
   "MoveType": "control",
   "MaxEntities": 0,

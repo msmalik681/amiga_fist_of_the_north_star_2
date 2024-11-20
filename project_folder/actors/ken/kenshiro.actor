@@ -1,6 +1,6 @@
 {
   "ShootDirType": "actor_direction",
-  "DefaultLookDir": "left",
+  "DefaultLookDir": "right",
   "Recycle": "Default",
   "MoveType": "control_platform",
   "MaxEntities": 0,
@@ -24,7 +24,7 @@
     "Right": "ken_walk_r",
     "DownLeft": "",
     "Down": "",
-    "DownRight": "ken_jump_r"
+    "DownRight": "ken_walk_r"
   },
   "Attacks": {
     "UpLeft": "",
