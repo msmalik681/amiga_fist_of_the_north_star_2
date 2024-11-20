@@ -250,7 +250,7 @@
         },
         {
           "FrameID": "kick_02",
-          "Duration": 1,
+          "Duration": 2,
           "Properties": {}
         },
         {
@@ -260,7 +260,7 @@
         },
         {
           "FrameID": "kick_03",
-          "Duration": 5,
+          "Duration": 20,
           "Properties": {}
         },
         {
@@ -270,7 +270,7 @@
         },
         {
           "FrameID": "kick_04",
-          "Duration": 5,
+          "Duration": 20,
           "Properties": {}
         }
       ],
@@ -765,7 +765,30 @@
           "Properties": {}
         }
       ],
-      "ColRects": {},
+      "ColRects": {
+        "1": {
+          "Value": 0,
+          "X": 14,
+          "Y": -45,
+          "Width": 32,
+          "Height": 19,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        },
+        "2": {
+          "Value": 0,
+          "X": -1,
+          "Y": -52,
+          "Width": 22,
+          "Height": 15,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
       "Properties": {
         "Events": "{\r\n  \"Events\": []\r\n}"
       }
@@ -1330,7 +1353,19 @@
           "Properties": {}
         }
       ],
-      "ColRects": {},
+      "ColRects": {
+        "1": {
+          "Value": 0,
+          "X": 1,
+          "Y": -60,
+          "Width": 46,
+          "Height": 14,
+          "ColorR": 0,
+          "ColorG": 0,
+          "ColorB": 255,
+          "Properties": {}
+        }
+      },
       "Properties": {
         "Events": "{\r\n  \"Events\": []\r\n}"
       }
