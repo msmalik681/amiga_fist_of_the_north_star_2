@@ -41,13 +41,16 @@
         {
           "FrameID": "power_up_05",
           "Duration": 5,
-          "Properties": {}
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
         }
       ],
       "Properties": {
         "PreventCollision": "True",
         "PreventMovement": "True",
-        "PreventJump": "True"
+        "PreventJump": "True",
+        "PreventAttack": "True"
       }
     }
   },

@@ -1,5 +1,5 @@
-Compiled on 20 November 2024 14:52:13
-Version string: SE2024.2.241120.21.23.EX
+Compiled on 22 November 2024 09:51:19
+Version string: SE2024.2.241122.22.16.EX
 
 === Misc ===
 ImageFrames: 184
@@ -32,11 +32,11 @@ Panel (background color #000) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 36788 Crunched size 3376
 Panel hud Original size 6204 Crunched size 6204
 Panel bobs hud Original size 746 Crunched size 746
-Project virtual machine (codeblocks) Original size 15880 Crunched size 15880
+Project virtual machine (codeblocks) Original size 17368 Crunched size 17368
 Map actor data for stage_1 Original size 28 Crunched size 28
 Header data for map stage_1 Original size 840 Crunched size 840
 Tile data for map stage_1 (mem restrictions:None) Original size 8036 Crunched size 8036
-Asset bundle 0 (Core project asset bundle) Original size 79233 Crunched size 79233
+Asset bundle 0 (Core project asset bundle) Original size 71799 Crunched size 71799
 Asset bundle 2 (ken_normal) Original size 86614 Crunched size 86614
 Asset bundle 3 (ken_super) Original size 109112 Crunched size 109112
 Asset bundle 1 (stage_1) Original size 23800 Crunched size 23800
@@ -52,7 +52,7 @@ For chip:
 Map gfx (level gfx bundle 3): 109112
 Music memory (metal_squad): 0
 BP Buffer memory: 121880
-core sfx/gfx memory: 79233
+core sfx/gfx memory: 71799
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -62,16 +62,16 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 199804
-vm memory: 15880
+EXE memory: 197880
+vm memory: 17368
 project memory: 15312
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 409553
-Accounted memory other: 345692
-Accounted memory total: 755245
+Accounted memory chip: 402119
+Accounted memory other: 345256
+Accounted memory total: 747375
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -87,15 +87,12 @@ ken_punch_l
 ken_standing_kick_l
 ken_super_die_l
 ken_super_duck_kick_l
-ken_super_duck_kick_r
 ken_super_duck_punch_l
 ken_super_jump_atk_kick_l
-ken_super_jump_atk_kick_r
 ken_super_jump_atk_punch_l
 ken_super_pain_l
 ken_super_punch_l
 ken_super_standing_kick_l
-ken_super_standing_kick_r
 ken_transform_power_up_l
 
 === Possibly unused sound effects ===
@@ -105,6 +102,7 @@ power_up
 player_on_timer: 690
 load_level: 550
 attack_button_1_punch: 534
+attack_button_2_kick: 482
 do_teleport: 402
 pre_startup: 366
 stage_timer: 348
@@ -114,10 +112,11 @@ enemy_pop: 300
 startup: 294
 flipxymove: 278 (Unused?)
 load_next_level: 252 (Unused?)
+autogen_ken_super_punch_l_1: 244
+autogen_ken_super_punch_r_1: 244
+autogen_ken_super_standing_kick_l_5: 244
+autogen_ken_super_standing_kick_r_5: 244
 player_bump: 238
-attack_button_2_kick: 228
-autogen_ken_super_punch_l_1: 218
-autogen_ken_super_punch_r_1: 218
 enemy_hit_player: 214
 block_find: 206 (Unused?)
 set_yresolution: 202
@@ -126,15 +125,17 @@ waitforframes: 194
 check_talkpad: 192 (Unused?)
 kenshiro_ducking_autogen_attack: 184
 player_transform: 182
+autogen_ken_super_punch_l_3: 180
+autogen_ken_super_punch_l_5: 180
+autogen_ken_super_punch_r_3: 180
+autogen_ken_super_punch_r_5: 180
+autogen_ken_super_standing_kick_l_1: 180
+autogen_ken_super_standing_kick_r_1: 180
 block_count: 178 (Unused?)
 pause: 176
 count_enemies: 166
 flipymove: 162 (Unused?)
 snap_to_screen: 158 (Unused?)
-autogen_ken_super_punch_l_3: 154
-autogen_ken_super_punch_l_5: 154
-autogen_ken_super_punch_r_3: 154
-autogen_ken_super_punch_r_5: 154
 pre_quit: 152
 enemy_bump: 148
 load_panel: 146
@@ -153,11 +154,13 @@ autogen_ken_jump_atk_punch_l_1: 116
 autogen_ken_punch_l_1: 116
 autogen_ken_standing_kick_l_1: 116
 autogen_ken_standing_kick_r_1: 116
+autogen_ken_super_standing_kick_l_3: 116
 waitforfireup: 114
 autogen_ken_duck_kick_r_1: 114
 autogen_ken_duck_punch_r_1: 114
 autogen_ken_jump_atk_punch_r_1: 114
 autogen_ken_punch_r_1: 114
+autogen_ken_super_standing_kick_r_3: 114
 fadein: 112
 waitforfiredown: 110
 unload_panel: 106
