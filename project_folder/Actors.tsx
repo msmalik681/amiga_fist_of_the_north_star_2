@@ -31,4 +31,9 @@
       <property name="Name" value="super_kenshiro_ducking" type="string" />
     </properties>
   </tile>
+  <tile id="6">
+    <properties>
+      <property name="Name" value="projectiles" type="string" />
+    </properties>
+  </tile>
 </tileset>
