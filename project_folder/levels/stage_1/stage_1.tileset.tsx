@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <tileset xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="stage_1" tilewidth="16" tileheight="16" tilecount="128" columns="16">
-  <image source="stage_1.tileset.png" width="256" height="128" />
+  <image source="stage_1_tile.png" width="256" height="128" />
   <tile id="0">
     <properties>
       <property name="IsSolid" value="False" type="bool" />
