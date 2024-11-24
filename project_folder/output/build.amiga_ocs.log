@@ -1,13 +1,13 @@
-Compiled on 22 November 2024 09:51:19
-Version string: SE2024.2.241122.22.16.EX
+Compiled on 24 November 2024 19:35:01
+Version string: SE2024.2.241124.19.10.EX
 
 === Misc ===
-ImageFrames: 184
-ImageFrame Data Size: 8096
+ImageFrames: 196
+ImageFrame Data Size: 8624
 Maps and Asset Bundles Count: 4
 Maps and Asset Bundles Data Size: 48
-Actor Count: 7
-Actor Data Size: 1260
+Actor Count: 8
+Actor Data Size: 1440
 Block Count: 2
 Block Data Size: 136
 Anim5 Count: 0
@@ -16,15 +16,15 @@ Sound Count: 7
 Sound Data Size: 196
 Teleporter Count: 1
 Teleporter Data Size: 8
-Animations Count: 62
-Animations Data Size: 992
-AnimationFrame Count: 185
-AnimationFrame Data Size: 2960
+Animations Count: 66
+Animations Data Size: 1056
+AnimationFrame Count: 197
+AnimationFrame Data Size: 3152
 Sprites: 89
 Sprites Data Size: 1246
 Attack Data: 3
 Attack Data Size: 264
-Misc data size: 68
+Misc data size: 86
 === Image optimisations ===
 Music file boss_loop Original size 72766 Crunched size 72766
 Music file metal_squad Original size 106880 Crunched size 106880
@@ -32,17 +32,17 @@ Panel (background color #000) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 36788 Crunched size 3376
 Panel hud Original size 6204 Crunched size 6204
 Panel bobs hud Original size 746 Crunched size 746
-Project virtual machine (codeblocks) Original size 17368 Crunched size 17368
-Map actor data for stage_1 Original size 28 Crunched size 28
+Project virtual machine (codeblocks) Original size 17830 Crunched size 17830
+Map actor data for stage_1 Original size 56 Crunched size 56
 Header data for map stage_1 Original size 840 Crunched size 840
 Tile data for map stage_1 (mem restrictions:None) Original size 8036 Crunched size 8036
-Asset bundle 0 (Core project asset bundle) Original size 71799 Crunched size 71799
+Asset bundle 0 (Core project asset bundle) Original size 80913 Crunched size 80913
 Asset bundle 2 (ken_normal) Original size 86614 Crunched size 86614
 Asset bundle 3 (ken_super) Original size 109112 Crunched size 109112
 Asset bundle 1 (stage_1) Original size 23800 Crunched size 23800
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 4404
-Project Data Original size 15312 Crunched size 15312
+Project Data Original size 16294 Crunched size 16294
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -52,7 +52,7 @@ For chip:
 Map gfx (level gfx bundle 3): 109112
 Music memory (metal_squad): 0
 BP Buffer memory: 121880
-core sfx/gfx memory: 71799
+core sfx/gfx memory: 80913
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -62,21 +62,23 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 197880
-vm memory: 17368
-project memory: 15312
+EXE memory: 198620
+vm memory: 17830
+project memory: 16294
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 402119
-Accounted memory other: 345256
-Accounted memory total: 747375
+Accounted memory chip: 411233
+Accounted memory other: 347440
+Accounted memory total: 758673
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
 enemies_axe_grunt_bump_r
 enemies_axe_grunt_die_l
+enemies_axegrunt_throw_l
+enemies_axegrunt_throw_r
 ken_die_l
 ken_duck_kick_l
 ken_duck_punch_l
@@ -120,6 +122,7 @@ player_bump: 238
 enemy_hit_player: 214
 block_find: 206 (Unused?)
 set_yresolution: 202
+enemy_special: 202 (Unused?)
 enemy_damage: 196
 waitforframes: 194
 check_talkpad: 192 (Unused?)
@@ -169,6 +172,8 @@ load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
 player_look_at_me: 94
+autogen_enemies_axe_thrown_l_0: 90
+autogen_enemies_axe_thrown_r_0: 90
 autogen_enemies_axegrunt_attack_l_1: 90
 autogen_enemies_axegrunt_attack_r_1: 90
 autogen_enemies_axegrunt_walk_l_0: 90
@@ -182,6 +187,7 @@ autogen_ken_jump_atk_kick_r_4: 90
 fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86
+stage_reset: 80 (Unused?)
 load_music: 78
 autogen_enemies_axe_grunt_die_l_1: 78
 load_music_finish: 76
