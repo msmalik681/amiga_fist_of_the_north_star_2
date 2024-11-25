@@ -9059,70 +9059,70 @@
       "Description": "Core operation'Sound'"
     },
     {
-      "CodeBlock": "autogen_ken_transform_power_up_l_0",
-      "CodeBlockLine": 0,
-      "MemoryOffset": 12742,
-      "Description": "AUTOGEN_KEN_TRANSFORM_POWER_UP_L_0"
-    },
-    {
-      "CodeBlock": "autogen_ken_transform_power_up_l_0",
-      "CodeBlockLine": 1,
-      "MemoryOffset": 12742,
-      "Description": "Set 'eventtag' to '13'"
-    },
-    {
-      "CodeBlock": "autogen_ken_transform_power_up_l_0",
-      "CodeBlockLine": 2,
-      "MemoryOffset": 12748,
-      "Description": "GOTO 'PLAYER_TRANSFORM'"
-    },
-    {
       "CodeBlock": "autogen_ken_transform_power_up_l_4",
       "CodeBlockLine": 0,
-      "MemoryOffset": 12780,
+      "MemoryOffset": 12742,
       "Description": "AUTOGEN_KEN_TRANSFORM_POWER_UP_L_4"
     },
     {
       "CodeBlock": "autogen_ken_transform_power_up_l_4",
       "CodeBlockLine": 1,
-      "MemoryOffset": 12780,
+      "MemoryOffset": 12742,
       "Description": "Set 'eventtag' to '1'"
     },
     {
       "CodeBlock": "autogen_ken_transform_power_up_l_4",
       "CodeBlockLine": 2,
-      "MemoryOffset": 12786,
+      "MemoryOffset": 12748,
       "Description": "Raw expression '0'"
     },
     {
       "CodeBlock": "autogen_ken_transform_power_up_l_4",
       "CodeBlockLine": 2,
-      "MemoryOffset": 12792,
+      "MemoryOffset": 12754,
       "Description": "Raw expression 'actor_x+-33'"
     },
     {
       "CodeBlock": "autogen_ken_transform_power_up_l_4",
       "CodeBlockLine": 2,
-      "MemoryOffset": 12808,
+      "MemoryOffset": 12770,
       "Description": "Raw expression 'actor_y+-96'"
     },
     {
       "CodeBlock": "autogen_ken_transform_power_up_l_4",
       "CodeBlockLine": 2,
-      "MemoryOffset": 12824,
+      "MemoryOffset": 12786,
       "Description": "Raw expression '65'"
     },
     {
       "CodeBlock": "autogen_ken_transform_power_up_l_4",
       "CodeBlockLine": 2,
-      "MemoryOffset": 12830,
+      "MemoryOffset": 12792,
       "Description": "Raw expression '97'"
     },
     {
       "CodeBlock": "autogen_ken_transform_power_up_l_4",
       "CodeBlockLine": 2,
-      "MemoryOffset": 12836,
+      "MemoryOffset": 12798,
       "Description": "Core operation'ActorMelee'"
+    },
+    {
+      "CodeBlock": "autogen_ken_transform_power_up_l_5",
+      "CodeBlockLine": 0,
+      "MemoryOffset": 12832,
+      "Description": "AUTOGEN_KEN_TRANSFORM_POWER_UP_L_5"
+    },
+    {
+      "CodeBlock": "autogen_ken_transform_power_up_l_5",
+      "CodeBlockLine": 1,
+      "MemoryOffset": 12832,
+      "Description": "Set 'eventtag' to '13'"
+    },
+    {
+      "CodeBlock": "autogen_ken_transform_power_up_l_5",
+      "CodeBlockLine": 2,
+      "MemoryOffset": 12838,
+      "Description": "GOTO 'PLAYER_TRANSFORM'"
     },
     {
       "CodeBlock": "autogen_ken_transform_power_up_r_4",
