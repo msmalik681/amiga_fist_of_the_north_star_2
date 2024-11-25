@@ -224,13 +224,20 @@
       "Channel": null
     },
     "jump_kicks": {
-      "LinkedMap": "",
+      "LinkedMap": "ken_normal",
       "RepeatDelay": 1,
       "IsMusic": false,
       "Priority": 0,
       "Channel": null
     },
     "power_up": {
+      "LinkedMap": "",
+      "RepeatDelay": 1,
+      "IsMusic": false,
+      "Priority": 0,
+      "Channel": null
+    },
+    "player_die": {
       "LinkedMap": "",
       "RepeatDelay": 1,
       "IsMusic": false,
