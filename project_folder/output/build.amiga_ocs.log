@@ -1,9 +1,9 @@
-Compiled on 25 November 2024 12:08:55
+Compiled on 25 November 2024 14:02:50
 Version string: SE2024.2.241125.12.07.EX
 
 === Misc ===
-ImageFrames: 200
-ImageFrame Data Size: 8800
+ImageFrames: 202
+ImageFrame Data Size: 8888
 Maps and Asset Bundles Count: 4
 Maps and Asset Bundles Data Size: 48
 Actor Count: 8
@@ -18,10 +18,10 @@ Teleporter Count: 1
 Teleporter Data Size: 8
 Animations Count: 66
 Animations Data Size: 1056
-AnimationFrame Count: 201
-AnimationFrame Data Size: 3216
-Sprites: 87
-Sprites Data Size: 1218
+AnimationFrame Count: 203
+AnimationFrame Data Size: 3248
+Sprites: 89
+Sprites Data Size: 1246
 Attack Data: 3
 Attack Data Size: 264
 Misc data size: 86
@@ -32,27 +32,27 @@ Panel (background color #000) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
 Panel hud Original size 6176 Crunched size 6176
 Panel bobs hud Original size 166 Crunched size 166
-Project virtual machine (codeblocks) Original size 18720 Crunched size 18720
+Project virtual machine (codeblocks) Original size 19314 Crunched size 19314
 Map actor data for stage_1 Original size 56 Crunched size 56
 Header data for map stage_1 Original size 844 Crunched size 844
 Tile data for map stage_1 (mem restrictions:None) Original size 8036 Crunched size 8036
-Asset bundle 0 (Core project asset bundle) Original size 136097 Crunched size 136097
-Asset bundle 2 (ken_normal) Original size 88490 Crunched size 88490
-Asset bundle 3 (ken_super) Original size 112342 Crunched size 112342
+Asset bundle 0 (Core project asset bundle) Original size 86435 Crunched size 86435
+Asset bundle 2 (ken_normal) Original size 89278 Crunched size 89278
+Asset bundle 3 (ken_super) Original size 119364 Crunched size 119364
 Asset bundle 1 (stage_1) Original size 23800 Crunched size 23800
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 4404
-Project Data Original size 16534 Crunched size 16534
+Project Data Original size 16682 Crunched size 16682
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
 (Note that this isn't a full account of memory usage, just the memory we can account for)
 
 For chip:
-Map gfx (level gfx bundle 3): 112342
+Map gfx (level gfx bundle 3): 119364
 Music memory (metal_squad): 0
 BP Buffer memory: 121880
-core sfx/gfx memory: 136097
+core sfx/gfx memory: 86435
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -63,15 +63,15 @@ Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 198428
-vm memory: 18720
-project memory: 16534
+vm memory: 19314
+project memory: 16682
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 469647
-Accounted memory other: 348378
-Accounted memory total: 818025
+Accounted memory chip: 427007
+Accounted memory other: 349120
+Accounted memory total: 776127
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -101,11 +101,11 @@ ken_transform_power_up_l
 power_up
 
 === Codeblocks by compiled size ===
-player_on_timer: 856
+player_on_timer: 914
 load_level: 550
 attack_button_1_punch: 534
+stage_reset: 486
 attack_button_2_kick: 482
-stage_reset: 436
 do_teleport: 402
 pre_startup: 366
 stage_timer: 328
@@ -160,6 +160,8 @@ autogen_ken_standing_kick_l_1: 116
 autogen_ken_standing_kick_r_1: 116
 autogen_ken_super_duck_kick_l_1: 116
 autogen_ken_super_duck_kick_r_1: 116
+autogen_ken_super_jump_atk_kick_l_0: 116
+autogen_ken_super_jump_atk_kick_r_0: 116
 autogen_ken_super_standing_kick_l_3: 116
 waitforfireup: 114
 autogen_ken_duck_kick_r_1: 114
@@ -170,7 +172,6 @@ autogen_ken_super_standing_kick_r_3: 114
 fadein: 112
 waitforfiredown: 110
 unload_panel: 106
-offscreen_kill: 106 (Unused?)
 load_panel_bottom: 96 (Unused?)
 load_panel_top: 96 (Unused?)
 destroy_child_actors: 94 (Unused?)
@@ -187,6 +188,10 @@ autogen_enemies_axegrunt_walk_r_1: 90
 autogen_enemies_axegrunt_walk_r_3: 90
 autogen_ken_jump_atk_kick_l_4: 90
 autogen_ken_jump_atk_kick_r_4: 90
+autogen_ken_super_jump_atk_kick_l_1: 90
+autogen_ken_super_jump_atk_kick_r_1: 90
+autogen_ken_transform_power_up_l_4: 90
+autogen_ken_transform_power_up_r_4: 90
 fadeout: 88
 pre_anim5: 86 (Unused?)
 waitforfirehit: 86

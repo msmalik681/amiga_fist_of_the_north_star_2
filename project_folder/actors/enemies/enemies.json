@@ -7,28 +7,28 @@
           "FrameID": "axegrunt_walk_01",
           "Duration": 3,
           "Properties": {
-            "RenderType": "Normal"
+            "RenderType": "RetroAnimatorFast"
           }
         },
         {
           "FrameID": "axegrunt_walk_02",
           "Duration": 3,
           "Properties": {
-            "RenderType": "Normal"
+            "RenderType": "RetroAnimatorFast"
           }
         },
         {
           "FrameID": "axegrunt_walk_01",
           "Duration": 3,
           "Properties": {
-            "RenderType": "Normal"
+            "RenderType": "RetroAnimatorFast"
           }
         },
         {
           "FrameID": "axegrunt_walk_03",
           "Duration": 3,
           "Properties": {
-            "RenderType": "Normal"
+            "RenderType": "RetroAnimatorFast"
           }
         }
       ],
@@ -42,14 +42,14 @@
           "FrameID": "axegrunt_attack_01",
           "Duration": 3,
           "Properties": {
-            "RenderType": "Normal"
+            "RenderType": "RetroAnimator"
           }
         },
         {
           "FrameID": "axegrunt_attack_02",
           "Duration": 6,
           "Properties": {
-            "RenderType": "Normal"
+            "RenderType": "RetroAnimator"
           }
         }
       ],
@@ -63,28 +63,28 @@
           "FrameID": "axegrunt_die_01",
           "Duration": 6,
           "Properties": {
-            "RenderType": "Normal"
+            "RenderType": "RetroAnimator"
           }
         },
         {
           "FrameID": "axegrunt_die_01B",
           "Duration": 3,
           "Properties": {
-            "RenderType": "Normal"
+            "RenderType": "RetroAnimator"
           }
         },
         {
           "FrameID": "axegrunt_die_02",
           "Duration": 9,
           "Properties": {
-            "RenderType": "Normal"
+            "RenderType": "RetroAnimator"
           }
         },
         {
           "FrameID": "axegrunt_die_03",
           "Duration": 3,
           "Properties": {
-            "RenderType": "Normal"
+            "RenderType": "RetroAnimator"
           }
         }
       ],
@@ -100,7 +100,7 @@
           "FrameID": "axegrunt_die_01",
           "Duration": 5,
           "Properties": {
-            "RenderType": "Normal"
+            "RenderType": "RetroAnimator"
           }
         }
       ],
@@ -152,13 +152,15 @@
           "FrameID": "axegrunt_attack_01",
           "Duration": 3,
           "Properties": {
-            "RenderType": "Sliced"
+            "RenderType": "RetroAnimator"
           }
         },
         {
           "FrameID": "axegrunt_throw",
           "Duration": 10,
-          "Properties": {}
+          "Properties": {
+            "RenderType": "RetroAnimator"
+          }
         }
       ],
       "Properties": {

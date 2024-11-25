@@ -146,7 +146,9 @@
         {
           "FrameID": "jump_atk_end",
           "Duration": -50,
-          "Properties": {}
+          "Properties": {
+            "RenderType": "OnlySprite"
+          }
         }
       ],
       "Properties": {
@@ -300,14 +302,14 @@
           "FrameID": "die_02",
           "Duration": 40,
           "Properties": {
-            "RenderType": "RetroAnimator"
+            "RenderType": "RetroAnimatorFast"
           }
         },
         {
           "FrameID": "die_03",
           "Duration": 40,
           "Properties": {
-            "RenderType": "RetroAnimator"
+            "RenderType": "RetroAnimatorFast"
           }
         }
       ],
