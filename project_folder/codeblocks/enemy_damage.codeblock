@@ -428,7 +428,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "player_pow",
-      "Expression": "player_pow + 100",
+      "Expression": "player_pow + 20",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,

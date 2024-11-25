@@ -1,4 +1,4 @@
-Compiled on 25 November 2024 14:23:47
+Compiled on 25 November 2024 14:38:52
 Version string: SE2024.2.241125.12.07.EX
 
 === Misc ===
@@ -32,8 +32,8 @@ Panel (background color #000) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
 Panel hud Original size 6176 Crunched size 6176
 Panel bobs hud Original size 166 Crunched size 166
-Project virtual machine (codeblocks) Original size 19314 Crunched size 19314
-Map actor data for stage_1 Original size 56 Crunched size 56
+Project virtual machine (codeblocks) Original size 19418 Crunched size 19418
+Map actor data for stage_1 Original size 28 Crunched size 28
 Header data for map stage_1 Original size 844 Crunched size 844
 Tile data for map stage_1 (mem restrictions:None) Original size 8036 Crunched size 8036
 Asset bundle 0 (Core project asset bundle) Original size 86435 Crunched size 86435
@@ -63,15 +63,15 @@ Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 198428
-vm memory: 19314
+vm memory: 19418
 project memory: 16682
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 427007
-Accounted memory other: 349120
-Accounted memory total: 776127
+Accounted memory other: 349224
+Accounted memory total: 776231
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -215,6 +215,8 @@ regenerate_screen: 58
 destroy_block: 52 (Unused?)
 return: 52 (Unused?)
 autogen_ken_jump_l_0: 52
+autogen_ken_super_duck_punch_l_1: 52
+autogen_ken_super_duck_punch_l_3: 52
 regenerate_screen_wait: 46
 freeze_actor: 40 (Unused?)
 unfreeze_actor: 40 (Unused?)
