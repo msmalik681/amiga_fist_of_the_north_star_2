@@ -1401,7 +1401,8 @@
     },
     {
       "Values": {
-        "AutoFlip": "True"
+        "AutoFlip": "True",
+        "LoopAnimation": "True"
       },
       "DataVersion": 6,
       "Category": "Player",
