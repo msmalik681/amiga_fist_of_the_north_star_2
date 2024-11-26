@@ -1088,7 +1088,7 @@
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
-      "XPosition": "camera_x + 288",
+      "XPosition": "camera_x + 304",
       "YPosition": "16 * 10",
       "TeleportName": "none",
       "XFloat": null,

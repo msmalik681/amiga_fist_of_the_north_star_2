@@ -1,5 +1,5 @@
-Compiled on 25 November 2024 14:38:52
-Version string: SE2024.2.241125.12.07.EX
+Compiled on 26 November 2024 11:52:10
+Version string: SE2024.2.241126.23.28.EX
 
 === Misc ===
 ImageFrames: 202
@@ -32,11 +32,11 @@ Panel (background color #000) Original size 1296 Crunched size 76
 Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
 Panel hud Original size 6176 Crunched size 6176
 Panel bobs hud Original size 166 Crunched size 166
-Project virtual machine (codeblocks) Original size 19418 Crunched size 19418
+Project virtual machine (codeblocks) Original size 19666 Crunched size 19666
 Map actor data for stage_1 Original size 28 Crunched size 28
 Header data for map stage_1 Original size 844 Crunched size 844
 Tile data for map stage_1 (mem restrictions:None) Original size 8036 Crunched size 8036
-Asset bundle 0 (Core project asset bundle) Original size 86435 Crunched size 86435
+Asset bundle 0 (Core project asset bundle) Original size 145665 Crunched size 145665
 Asset bundle 2 (ken_normal) Original size 89278 Crunched size 89278
 Asset bundle 3 (ken_super) Original size 119364 Crunched size 119364
 Asset bundle 1 (stage_1) Original size 23800 Crunched size 23800
@@ -51,8 +51,8 @@ Project virtual machine redirects Original size 4 Crunched size 4
 For chip:
 Map gfx (level gfx bundle 3): 119364
 Music memory (metal_squad): 0
-BP Buffer memory: 121880
-core sfx/gfx memory: 86435
+BP Buffer memory: 127420
+core sfx/gfx memory: 145665
 Parallax memory: 0
 OS/other estimated: 99328
 
@@ -62,16 +62,16 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 198428
-vm memory: 19418
+EXE memory: 198580
+vm memory: 19666
 project memory: 16682
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
-Accounted memory chip: 427007
-Accounted memory other: 349224
-Accounted memory total: 776231
+Accounted memory chip: 491777
+Accounted memory other: 349624
+Accounted memory total: 841401
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -104,12 +104,12 @@ power_up
 player_on_timer: 914
 load_level: 550
 attack_button_1_punch: 534
+player_land: 494
 stage_reset: 486
 attack_button_2_kick: 482
 do_teleport: 402
 pre_startup: 366
 stage_timer: 328
-player_land: 320
 flipscreen_smooth: 310 (Unused?)
 player_bump: 302
 enemy_pop: 300
@@ -204,6 +204,7 @@ set_ntsc: 74 (Unused?)
 flipscreen: 72 (Unused?)
 wrap_screen_left: 72 (Unused?)
 wrap_screen_top: 72 (Unused?)
+enemy_ai: 72 (Unused?)
 quit: 70 (Unused?)
 jump_actor: 66 (Unused?)
 load_panel_finish: 66
