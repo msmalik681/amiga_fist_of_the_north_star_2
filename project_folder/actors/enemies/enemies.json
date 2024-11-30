@@ -115,35 +115,35 @@
       "FrameData": [
         {
           "FrameID": "axe_thrown_01",
-          "Duration": 4,
+          "Duration": 2,
           "Properties": {
             "RenderType": "Normal"
           }
         },
         {
           "FrameID": "axe_thrown_02",
-          "Duration": 4,
+          "Duration": 2,
           "Properties": {
             "RenderType": "Normal"
           }
         },
         {
           "FrameID": "axe_thrown_03",
-          "Duration": 4,
+          "Duration": 2,
           "Properties": {
             "RenderType": "Normal"
           }
         },
         {
           "FrameID": "axe_thrown_04",
-          "Duration": 4,
+          "Duration": 2,
           "Properties": {
             "RenderType": "Normal"
           }
         }
       ],
       "Properties": {
-        "PreventMovement": "True"
+        "PreventMovement": "False"
       }
     },
     "axegrunt_throw_r": {
@@ -508,10 +508,10 @@
       "ColRects": {
         "1": {
           "Value": 0,
-          "X": -15,
-          "Y": -15,
-          "Width": 31,
-          "Height": 31,
+          "X": -13,
+          "Y": -13,
+          "Width": 27,
+          "Height": 27,
           "ColorR": 0,
           "ColorG": 0,
           "ColorB": 255,
@@ -539,10 +539,10 @@
       "ColRects": {
         "1": {
           "Value": 0,
-          "X": -15,
-          "Y": -15,
-          "Width": 31,
-          "Height": 31,
+          "X": -13,
+          "Y": -13,
+          "Width": 27,
+          "Height": 27,
           "ColorR": 0,
           "ColorG": 0,
           "ColorB": 255,
@@ -570,10 +570,10 @@
       "ColRects": {
         "1": {
           "Value": 0,
-          "X": -15,
-          "Y": -15,
-          "Width": 31,
-          "Height": 31,
+          "X": -13,
+          "Y": -13,
+          "Width": 27,
+          "Height": 27,
           "ColorR": 0,
           "ColorG": 0,
           "ColorB": 255,
@@ -601,10 +601,10 @@
       "ColRects": {
         "1": {
           "Value": 0,
-          "X": -15,
-          "Y": -15,
-          "Width": 31,
-          "Height": 31,
+          "X": -13,
+          "Y": -13,
+          "Width": 27,
+          "Height": 27,
           "ColorR": 0,
           "ColorG": 0,
           "ColorB": 255,

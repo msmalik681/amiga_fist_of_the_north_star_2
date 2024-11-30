@@ -6,4 +6,9 @@
       <property name="Name" value="floor" type="string" />
     </properties>
   </tile>
+  <tile id="1">
+    <properties>
+      <property name="Name" value="end" type="string" />
+    </properties>
+  </tile>
 </tileset>
