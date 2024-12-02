@@ -1,5 +1,5 @@
-Compiled on 30 November 2024 14:01:35
-Version string: SE2024.2.241130.16.16.EX
+Compiled on 02 December 2024 21:13:26
+Version string: SE2024.2.241202.12.05.EX
 
 === Misc ===
 ImageFrames: 202
@@ -43,7 +43,7 @@ Asset bundle 3 (ken_super) Original size 119364 Crunched size 44832
 Asset bundle 1 (stage_1) Original size 23800 Crunched size 9916
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 1232
-Project Data Original size 16926 Crunched size 5266
+Project Data Original size 16926 Crunched size 5264
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -63,7 +63,7 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 198756
+EXE memory: 198800
 vm memory: 21980
 project memory: 16926
 memory reserved for active actors on screen (32): 4616
@@ -71,8 +71,8 @@ memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 495457
-Accounted memory other: 352358
-Accounted memory total: 847815
+Accounted memory other: 352402
+Accounted memory total: 847859
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l

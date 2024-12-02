@@ -24,7 +24,7 @@
     "Right": "ken_super_walk_r",
     "DownLeft": "",
     "Down": "",
-    "DownRight": "ken_super_walk_r"
+    "DownRight": "ken_super_jump_r"
   },
   "Attacks": {
     "UpLeft": "",
