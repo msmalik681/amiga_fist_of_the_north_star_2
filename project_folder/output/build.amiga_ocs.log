@@ -1,5 +1,5 @@
-Compiled on 02 December 2024 21:13:53
-Version string: SE2024.2.241202.12.05.EX
+Compiled on 03 December 2024 17:05:04
+Version string: SE2024.2.241203.20.57.EX
 
 === Misc ===
 ImageFrames: 202
@@ -33,7 +33,7 @@ Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
 Panel hud Original size 6176 Crunched size 534
 Panel bobs hud Original size 166 Crunched size 64
 Panel title Original size 30976 Crunched size 9592
-Project virtual machine (codeblocks) Original size 21980 Crunched size 5006
+Project virtual machine (codeblocks) Original size 22086 Crunched size 5030
 Map actor data for stage_1 Original size 28 Crunched size 28
 Header data for map stage_1 Original size 844 Crunched size 176
 Tile data for map stage_1 (mem restrictions:None) Original size 23396 Crunched size 1476
@@ -64,15 +64,15 @@ Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 198800
-vm memory: 21980
+vm memory: 22086
 project memory: 16926
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 495457
-Accounted memory other: 352402
-Accounted memory total: 847859
+Accounted memory other: 352508
+Accounted memory total: 847965
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -109,11 +109,11 @@ startup: 530
 player_land: 494
 stage_reset: 486
 attack_button_2_kick: 482
-stage_timer: 434
+stage_timer: 456
+enemy_hit_player: 412
 do_teleport: 402
-enemy_hit_player: 368
 pre_startup: 366
-player_bump: 318
+player_bump: 356
 flipscreen_smooth: 310 (Unused?)
 enemy_pop: 300
 enemy_damage: 286
