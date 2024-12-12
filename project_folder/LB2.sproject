@@ -162,12 +162,12 @@
     },
     {
       "Compiler": "amiga",
-      "Key": "D",
-      "JoystickPort": 1,
+      "Key": "P",
+      "JoystickPort": -1,
       "JoystickX": 0,
       "JoystickY": 0,
       "JoystickFire1": false,
-      "JoystickFire2": true,
+      "JoystickFire2": false,
       "CD32Play": false,
       "CD32Reverse": false,
       "CD32Forward": false,
@@ -189,7 +189,7 @@
       "Neo_Select": false,
       "OnPress": "test",
       "OnRelease": null,
-      "buttonState": 2
+      "buttonState": 0
     }
   ],
   "AnimationMetaData": {},
