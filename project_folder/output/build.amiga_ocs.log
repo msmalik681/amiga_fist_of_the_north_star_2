@@ -1,5 +1,5 @@
-Compiled on 09 December 2024 15:02:45
-Version string: SE2024.2.241210.00.15.EX
+Compiled on 28 December 2024 17:52:19
+Version string: SE2024.2.241223.17.21.EX
 
 === Misc ===
 ImageFrames: 202
@@ -33,7 +33,7 @@ Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
 Panel hud Original size 6176 Crunched size 534
 Panel bobs hud Original size 166 Crunched size 64
 Panel title Original size 30976 Crunched size 9592
-Project virtual machine (codeblocks) Original size 21998 Crunched size 5032
+Project virtual machine (codeblocks) Original size 22056 Crunched size 5042
 Map actor data for stage_1 Original size 28 Crunched size 28
 Header data for map stage_1 Original size 844 Crunched size 176
 Tile data for map stage_1 (mem restrictions:None) Original size 23396 Crunched size 1476
@@ -43,7 +43,7 @@ Asset bundle 3 (ken_super) Original size 119364 Crunched size 44832
 Asset bundle 1 (stage_1) Original size 23800 Crunched size 9916
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 1232
-Project Data Original size 16914 Crunched size 5258
+Project Data Original size 16914 Crunched size 5264
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -63,16 +63,16 @@ Map header cache memory: 0
 Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
-EXE memory: 198936
-vm memory: 21998
+EXE memory: 198948
+vm memory: 22056
 project memory: 16914
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 495457
-Accounted memory other: 352544
-Accounted memory total: 848001
+Accounted memory other: 352614
+Accounted memory total: 848071
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -105,11 +105,11 @@ power_up
 player_on_timer: 914
 load_level: 550
 attack_button_1_punch: 534
-stage_timer: 498
-player_land: 494
+player_land: 534
+stage_timer: 504
 stage_reset: 486
 attack_button_2_kick: 482
-player_bump: 432
+player_bump: 438
 do_teleport: 402
 startup: 386
 enemy_hit_player: 374
@@ -129,7 +129,7 @@ set_yresolution: 202
 enemy_special: 202 (Unused?)
 waitforframes: 194
 check_talkpad: 192 (Unused?)
-enemy_bump: 186
+enemy_bump: 192
 kenshiro_ducking_autogen_attack: 184
 autogen_ken_super_duck_punch_l_1: 180
 autogen_ken_super_duck_punch_l_5: 180
