@@ -1050,6 +1050,13 @@
           "LeftSide": "projectile_animationtag",
           "Comparison": "Equals",
           "RightSide": "enemies_axe_thrown",
+          "ComparisonNext": "Or",
+          "IsValid": true
+        },
+        {
+          "LeftSide": "projectile_animation",
+          "Comparison": "Equals",
+          "RightSide": "bird_fly",
           "ComparisonNext": "End",
           "IsValid": true
         }

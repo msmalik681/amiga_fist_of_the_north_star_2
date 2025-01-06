@@ -957,7 +957,15 @@
       "Platform": "all",
       "VariableType": "Variable",
       "VariableExpansionMode": "Word",
-      "Conditions": []
+      "Conditions": [
+        {
+          "LeftSide": "",
+          "Comparison": "NotZero",
+          "RightSide": "",
+          "ComparisonNext": "End",
+          "IsValid": false
+        }
+      ]
     },
     {
       "Values": {},
@@ -986,8 +994,8 @@
       "Breakpoint": false,
       "Level": "none",
       "NewBlock": "none",
-      "XPosition": "projectile_x",
-      "YPosition": "projectile_y",
+      "XPosition": "actor_x",
+      "YPosition": "actor_y",
       "TeleportName": "none",
       "XFloat": null,
       "YFloat": null,
@@ -1051,7 +1059,7 @@
     {
       "Values": {},
       "DataVersion": 6,
-      "Category": "Projectile",
+      "Category": "Actor",
       "BasicOperationType": "CommentOnly",
       "DisplayOperationType": "SetPanel",
       "AudioOperationType": "PlaySound",

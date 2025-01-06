@@ -1853,7 +1853,7 @@
       "Goto": "",
       "Comment": "",
       "Variable": "player_invincable_time",
-      "Expression": "5",
+      "Expression": "2",
       "Index": "0",
       "Label": "",
       "DiceSides": 2,
