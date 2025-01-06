@@ -1,4 +1,4 @@
-Compiled on 01 January 2025 21:29:26
+Compiled on 02 January 2025 18:40:15
 Version string: SE2024.2.241223.17.21.EX
 
 === Misc ===
@@ -33,7 +33,7 @@ Panel scorpion_eng_splashscreen Original size 36792 Crunched size 3380
 Panel hud Original size 6176 Crunched size 534
 Panel bobs hud Original size 166 Crunched size 64
 Panel title Original size 30976 Crunched size 9592
-Project virtual machine (codeblocks) Original size 22144 Crunched size 5076
+Project virtual machine (codeblocks) Original size 22268 Crunched size 5120
 Map actor data for stage_1 Original size 28 Crunched size 28
 Header data for map stage_1 Original size 844 Crunched size 176
 Tile data for map stage_1 (mem restrictions:None) Original size 23396 Crunched size 1476
@@ -43,7 +43,7 @@ Asset bundle 3 (ken_super) Original size 119364 Crunched size 44832
 Asset bundle 1 (stage_1) Original size 23800 Crunched size 9916
 Misc Data (paths, hurt boxes etc) Original size 2 Crunched size 2
 Project Header Original size 4404 Crunched size 1232
-Project Data Original size 16990 Crunched size 5306
+Project Data Original size 16990 Crunched size 5302
 Project virtual machine redirects Original size 4 Crunched size 4
 
 === Accounted Memory Usage ===
@@ -64,15 +64,15 @@ Map actor cache memory: 0
 Map data memory: 0
 Map background memory: 0
 EXE memory: 198948
-vm memory: 22144
+vm memory: 22268
 project memory: 16990
 memory reserved for active actors on screen (32): 4616
 memory reserved for dormant actors in map (128): 4608
 OS/other estimated: 105472
 
 Accounted memory chip: 496177
-Accounted memory other: 352778
-Accounted memory total: 848955
+Accounted memory other: 352902
+Accounted memory total: 849079
 
 === Possibly unused animations ===
 enemies_axe_grunt_bump_l
@@ -110,13 +110,13 @@ player_land: 534
 stage_timer: 504
 stage_reset: 486
 player_bump: 438
+enemy_damage: 410
 do_teleport: 402
 startup: 386
 enemy_hit_player: 374
 pre_startup: 366
 flipscreen_smooth: 310 (Unused?)
 enemy_pop: 300
-enemy_damage: 286
 player_transform: 286
 flipxymove: 278 (Unused?)
 load_next_level: 252 (Unused?)
