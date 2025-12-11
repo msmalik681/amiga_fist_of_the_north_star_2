@@ -158,8 +158,8 @@
     "0",
     "0"
   ],
-  "ControlPort": 4,
-  "DataVersion": 6,
+  "ControlPort": 1,
+  "DataVersion": 8,
   "ActorTag": "axe_grunt",
   "AutoSpawn": null,
   "AutoNavigate": false,

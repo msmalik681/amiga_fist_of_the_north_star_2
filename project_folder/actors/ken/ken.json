@@ -7,28 +7,32 @@
           "FrameID": "walk_01",
           "Duration": 5,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "walk_02",
           "Duration": 5,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "walk_01",
           "Duration": 5,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "walk_03",
           "Duration": 5,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         }
       ],
@@ -42,7 +46,8 @@
           "FrameID": "idle",
           "Duration": 5,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         }
       ],
@@ -56,7 +61,8 @@
           "FrameID": "jump",
           "Duration": -1,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"punch_sfx\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_C2\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
           }
         }
       ],
@@ -72,14 +78,16 @@
           "FrameID": "punch_01",
           "Duration": 2,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "punch_02",
           "Duration": 2,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"ken_standing_punch\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 8,\r\n        \"Y\": -74,\r\n        \"Width\": 42,\r\n        \"Height\": 16\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"punch_sfx\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_D2\",\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
           }
         }
       ],
@@ -95,7 +103,8 @@
           "FrameID": "duck",
           "Duration": 3,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         }
       ],
@@ -111,14 +120,16 @@
           "FrameID": "duck_punch_01",
           "Duration": 2,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "duck_punch_02",
           "Duration": 2,
           "Properties": {
-            "RenderType": "RetroAnimator"
+            "RenderType": "RetroAnimator",
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"punch\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 4,\r\n        \"Y\": -57,\r\n        \"Width\": 45,\r\n        \"Height\": 26\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"punch_sfx\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_D2\",\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
           }
         }
       ],
@@ -134,21 +145,24 @@
           "FrameID": "jump_punch_01",
           "Duration": 2,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "jump_punch_02",
           "Duration": 3,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"jump_punch\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 4,\r\n        \"Y\": -78,\r\n        \"Width\": 45,\r\n        \"Height\": 16\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"punch_sfx\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_D2\",\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
           }
         },
         {
           "FrameID": "jump_atk_end",
           "Duration": -50,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         }
       ],
@@ -163,21 +177,24 @@
           "FrameID": "kick_01",
           "Duration": 2,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "kick_02",
           "Duration": 2,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"standing_kick\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -2,\r\n        \"Y\": -85,\r\n        \"Width\": 37,\r\n        \"Height\": 85\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"punch_sfx\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_D2\",\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
           }
         },
         {
           "FrameID": "kick_01",
           "Duration": 2,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         }
       ],
@@ -193,48 +210,56 @@
           "FrameID": "jump_kick_01",
           "Duration": 2,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "jump_kick_02",
           "Duration": 2,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"kick_01\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -2,\r\n        \"Y\": -85,\r\n        \"Width\": 35,\r\n        \"Height\": 60\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"jump_kicks\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_D2\",\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
           }
         },
         {
           "FrameID": "jump_kick_01",
           "Duration": 1,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "jump_kick_03",
           "Duration": 1,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "jump_kick_04",
           "Duration": 2,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"kick_2\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -2,\r\n        \"Y\": -86,\r\n        \"Width\": 37,\r\n        \"Height\": 63\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
           }
         },
         {
           "FrameID": "jump_kick_03",
           "Duration": 2,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "jump_atk_end",
           "Duration": -50,
-          "Properties": {}
+          "Properties": {
+            "Events": "{\r\n  \"Events\": []\r\n}"
+          }
         }
       ],
       "Properties": {
@@ -247,21 +272,24 @@
           "FrameID": "duck_kick_01",
           "Duration": 2,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "duck_kick_02",
           "Duration": 2,
           "Properties": {
-            "RenderType": "RetroAnimator"
+            "RenderType": "RetroAnimator",
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"low_kick\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 1,\r\n        \"Y\": -33,\r\n        \"Width\": 50,\r\n        \"Height\": 34\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"punch_sfx\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_D2\",\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
           }
         },
         {
           "FrameID": "duck_kick_01",
           "Duration": 1,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         }
       ],
@@ -277,7 +305,8 @@
           "FrameID": "pain",
           "Duration": 5,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         }
       ],
@@ -296,21 +325,24 @@
           "FrameID": "die_01",
           "Duration": 15,
           "Properties": {
-            "RenderType": "OnlySprite"
+            "RenderType": "OnlySprite",
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"stage_reset\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
           }
         },
         {
           "FrameID": "die_02",
           "Duration": 40,
           "Properties": {
-            "RenderType": "RetroAnimatorFast"
+            "RenderType": "RetroAnimatorFast",
+            "Events": "{\r\n  \"Events\": []\r\n}"
           }
         },
         {
           "FrameID": "die_03",
           "Duration": 40,
           "Properties": {
-            "RenderType": "RetroAnimatorFast"
+            "RenderType": "RetroAnimatorFast",
+            "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"stage_reset\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"IsGlobal\": true,\r\n      \"Volume\": \"\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
           }
         }
       ],
@@ -347,9 +379,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "walk_02": {
       "Sprites": [
@@ -382,9 +412,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "walk_01": {
       "Sprites": [
@@ -408,9 +436,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "idle": {
       "Sprites": [
@@ -434,9 +460,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "jump": {
       "Sprites": [
@@ -460,9 +484,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"punch_sfx\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_C2\",\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-      }
+      "Properties": {}
     },
     "punch_01": {
       "Sprites": [
@@ -486,9 +508,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "punch_02": {
       "Sprites": [
@@ -526,9 +546,7 @@
           }
         }
       },
-      "Properties": {
-        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"ken_standing_punch\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 8,\r\n        \"Y\": -74,\r\n        \"Width\": 42,\r\n        \"Height\": 16\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"punch_sfx\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_D2\",\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-      }
+      "Properties": {}
     },
     "duck": {
       "Sprites": [
@@ -552,9 +570,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "duck_punch_01": {
       "Sprites": [
@@ -578,9 +594,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "duck_punch_02": {
       "Sprites": [
@@ -618,9 +632,7 @@
           }
         }
       },
-      "Properties": {
-        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"punch\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 4,\r\n        \"Y\": -57,\r\n        \"Width\": 45,\r\n        \"Height\": 26\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"punch_sfx\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_D2\",\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-      }
+      "Properties": {}
     },
     "jump_punch_01": {
       "Sprites": [
@@ -644,9 +656,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "jump_punch_02": {
       "Sprites": [
@@ -684,9 +694,7 @@
           }
         }
       },
-      "Properties": {
-        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"jump_punch\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 4,\r\n        \"Y\": -78,\r\n        \"Width\": 45,\r\n        \"Height\": 16\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"punch_sfx\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_D2\",\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-      }
+      "Properties": {}
     },
     "kick_01": {
       "Sprites": [
@@ -710,9 +718,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "kick_02": {
       "Sprites": [
@@ -741,9 +747,7 @@
           }
         }
       },
-      "Properties": {
-        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"standing_kick\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -2,\r\n        \"Y\": -85,\r\n        \"Width\": 37,\r\n        \"Height\": 85\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"punch_sfx\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_D2\",\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-      }
+      "Properties": {}
     },
     "jump_kick_01": {
       "Sprites": [
@@ -767,9 +771,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "jump_kick_02": {
       "Sprites": [
@@ -798,9 +800,7 @@
           }
         }
       },
-      "Properties": {
-        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"kick_01\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -2,\r\n        \"Y\": -85,\r\n        \"Width\": 35,\r\n        \"Height\": 60\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"jump_kicks\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_D2\",\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-      }
+      "Properties": {}
     },
     "jump_kick_03": {
       "Sprites": [
@@ -824,9 +824,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "jump_kick_04": {
       "Sprites": [
@@ -855,9 +853,7 @@
           }
         }
       },
-      "Properties": {
-        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"kick_2\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -2,\r\n        \"Y\": -86,\r\n        \"Width\": 37,\r\n        \"Height\": 63\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-      }
+      "Properties": {}
     },
     "duck_kick_01": {
       "Sprites": [
@@ -881,9 +877,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "duck_kick_02": {
       "Sprites": [
@@ -921,9 +915,7 @@
           }
         }
       },
-      "Properties": {
-        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"MeleeBox\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"low_kick\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": 1,\r\n        \"Y\": -33,\r\n        \"Width\": 50,\r\n        \"Height\": 34\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    },\r\n    {\r\n      \"FrameEventType\": \"Sound\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": null,\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"punch_sfx\",\r\n      \"Variable\": null,\r\n      \"Expression\": \"Note_D2\",\r\n      \"Tag\": \"FrameEvent1\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": false,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-      }
+      "Properties": {}
     },
     "jump_atk_end": {
       "Sprites": [
@@ -947,9 +939,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "pain": {
       "Sprites": [
@@ -973,9 +963,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "die_01": {
       "Sprites": [
@@ -999,9 +987,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"stage_reset\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-      }
+      "Properties": {}
     },
     "die_02": {
       "Sprites": [
@@ -1025,9 +1011,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "stright_punch": {
       "Sprites": [
@@ -1060,9 +1044,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": []\r\n}"
-      }
+      "Properties": {}
     },
     "die_03": {
       "Sprites": [
@@ -1086,9 +1068,7 @@
         }
       ],
       "ColRects": {},
-      "Properties": {
-        "Events": "{\r\n  \"Events\": [\r\n    {\r\n      \"FrameEventType\": \"Trigger\",\r\n      \"Dir\": \"move_right\",\r\n      \"Codeblock\": \"stage_reset\",\r\n      \"Actor\": \"none\",\r\n      \"Sound\": \"none\",\r\n      \"Variable\": null,\r\n      \"Expression\": null,\r\n      \"Tag\": \"FrameEvent0\",\r\n      \"IsConditional\": false,\r\n      \"OverrideDirection\": false,\r\n      \"Animation\": \"none\",\r\n      \"AnimationLoop\": false,\r\n      \"AutoFlip\": false,\r\n      \"AnimationFrame\": \"0\",\r\n      \"OverrideSpeed\": false,\r\n      \"XFloat\": null,\r\n      \"YFloat\": null,\r\n      \"ColorR\": 0,\r\n      \"ColorG\": 0,\r\n      \"ColorB\": 255,\r\n      \"ResetMovement\": true,\r\n      \"ResetAnimation\": true,\r\n      \"Box\": {\r\n        \"X\": -4,\r\n        \"Y\": -4,\r\n        \"Width\": 8,\r\n        \"Height\": 8\r\n      },\r\n      \"HasTag\": true,\r\n      \"Color\": {\r\n        \"r\": 0,\r\n        \"g\": 0,\r\n        \"b\": 255,\r\n        \"a\": 128\r\n      },\r\n      \"Conditions\": [],\r\n      \"Angle\": 0.0,\r\n      \"HasActorAngle\": false,\r\n      \"HasChildAngle\": false,\r\n      \"HasAngle\": false\r\n    }\r\n  ]\r\n}"
-      }
+      "Properties": {}
     }
   },
   "Properties": {}
