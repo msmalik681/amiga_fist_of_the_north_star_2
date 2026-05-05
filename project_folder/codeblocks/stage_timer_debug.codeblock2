@@ -1,0 +1,10 @@
+Variable word fps_count=0
+Variable word fps_display=0
+
+Set fps_count=fps_count + 1
+
+If frame_countdown <= -50
+    Set fps_display=fps_count
+    Set fps_count=0
+    Set frame_countdown=0
+End

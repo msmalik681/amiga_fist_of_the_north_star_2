@@ -32,7 +32,7 @@
       "Y": "player_y",
       "NewBlock": "none",
       "TeleportName": "none",
-      "ActorType": "axe_grunt",
+      "ActorType": "copyof_axe_grunt",
       "Animation": "none",
       "LookDirection": "look_upleft",
       "ResetMovement": true,

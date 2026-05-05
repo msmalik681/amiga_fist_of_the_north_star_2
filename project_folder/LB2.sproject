@@ -2,7 +2,6 @@
   "TargetPlatform": "amiga_ocs",
   "StartupCodeBlock": "startup",
   "Recompile": true,
-  "DebugMode": false,
   "DataVersion": 3,
   "Commands": [
     {
@@ -13,6 +12,7 @@
       "JoystickY": 0,
       "JoystickFire1": false,
       "JoystickFire2": false,
+      "JoystickFire3": false,
       "CD32Play": false,
       "CD32Reverse": false,
       "CD32Forward": false,
@@ -44,6 +44,7 @@
       "JoystickY": 0,
       "JoystickFire1": false,
       "JoystickFire2": false,
+      "JoystickFire3": false,
       "CD32Play": false,
       "CD32Reverse": false,
       "CD32Forward": false,
@@ -65,7 +66,7 @@
       "Neo_Select": false,
       "OnPress": "pause",
       "OnRelease": null,
-      "buttonState": 8
+      "buttonState": 128
     },
     {
       "Compiler": "amiga",
@@ -75,6 +76,7 @@
       "JoystickY": 0,
       "JoystickFire1": false,
       "JoystickFire2": true,
+      "JoystickFire3": false,
       "CD32Play": false,
       "CD32Reverse": false,
       "CD32Forward": false,
@@ -96,7 +98,7 @@
       "Neo_Select": false,
       "OnPress": "attack_button_2_kick",
       "OnRelease": null,
-      "buttonState": 2
+      "buttonState": 32
     },
     {
       "Compiler": "amiga",
@@ -106,6 +108,7 @@
       "JoystickY": 0,
       "JoystickFire1": true,
       "JoystickFire2": false,
+      "JoystickFire3": false,
       "CD32Play": false,
       "CD32Reverse": false,
       "CD32Forward": false,
@@ -127,7 +130,7 @@
       "Neo_Select": false,
       "OnPress": "attack_button_1_punch",
       "OnRelease": "",
-      "buttonState": 1
+      "buttonState": 16
     },
     {
       "Compiler": "amiga",
@@ -137,6 +140,7 @@
       "JoystickY": 0,
       "JoystickFire1": false,
       "JoystickFire2": false,
+      "JoystickFire3": false,
       "CD32Play": false,
       "CD32Reverse": false,
       "CD32Forward": false,
@@ -168,6 +172,7 @@
       "JoystickY": 0,
       "JoystickFire1": false,
       "JoystickFire2": false,
+      "JoystickFire3": false,
       "CD32Play": false,
       "CD32Reverse": false,
       "CD32Forward": false,
@@ -261,5 +266,5 @@
   "SplashScreenFrames": 50,
   "TestLevel": null,
   "SafetyRails": false,
-  "NGH": 21317
+  "VDPColor": false
 }
